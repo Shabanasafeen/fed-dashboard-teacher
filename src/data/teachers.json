@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Adrian D Souza",
+    "coursesResponsible": 3,
+    "courses2nd": 5,
+    "courses3rd": 3,
+    "onLeave": null,
+    "backDate": null
+  },
+  {
+    "name": "Lasse Hægland",
+    "coursesResponsible": 4,
+    "courses2nd": 2,
+    "courses3rd": 5,
+    "onLeave": null,
+    "backDate": null
+  },
+  {
+    "name": "Martin Kruger",
+    "coursesResponsible": 3,
+    "courses2nd": 4,
+    "courses3rd": 3,
+    "onLeave": null,
+    "backDate": null
+  },
+  {
+    "name": "Marvin Poole",
+    "coursesResponsible": 3,
+    "courses2nd": 4,
+    "courses3rd": 3,
+    "onLeave": null,
+    "backDate": null
+  },
+  {
+    "name": "Nelly Moseki",
+    "coursesResponsible": 4,
+    "courses2nd": 2,
+    "courses3rd": 3,
+    "onLeave": null,
+    "backDate": null
+  },
+  {
+    "name": "Shabana Jahan",
+    "coursesResponsible": 0,
+    "courses2nd": 0,
+    "courses3rd": 0,
+    "onLeave": null,
+    "backDate": null
+  }
+]

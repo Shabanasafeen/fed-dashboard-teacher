@@ -1,0 +1,263 @@
+[
+  {
+    "id": "OCT21PT",
+    "type": "PT",
+    "startMonth": "OCT",
+    "startYear": 2021,
+    "studentCount": 4,
+    "studyPlan": "S21",
+    "lms": "Moodle"
+  },
+  {
+    "id": "JAN22PT",
+    "type": "PT",
+    "startMonth": "JAN",
+    "startYear": 2022,
+    "studentCount": 4,
+    "studyPlan": "S21",
+    "lms": "Moodle"
+  },
+  {
+    "id": "MAR22PT",
+    "type": "PT",
+    "startMonth": "MAR",
+    "startYear": 2022,
+    "studentCount": 6,
+    "studyPlan": "S21",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "AUG22PT",
+    "type": "PT",
+    "startMonth": "AUG",
+    "startYear": 2022,
+    "studentCount": 10,
+    "studyPlan": "S21",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "OCT22PT",
+    "type": "PT",
+    "startMonth": "OCT",
+    "startYear": 2022,
+    "studentCount": 13,
+    "studyPlan": "S21",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "JAN23PT",
+    "type": "PT",
+    "startMonth": "JAN",
+    "startYear": 2023,
+    "studentCount": 8,
+    "studyPlan": "S21",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "MAR23PT",
+    "type": "PT",
+    "startMonth": "MAR",
+    "startYear": 2023,
+    "studentCount": 7,
+    "studyPlan": "S21",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "AUG23PT",
+    "type": "PT",
+    "startMonth": "AUG",
+    "startYear": 2023,
+    "studentCount": 14,
+    "studyPlan": "S23",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "OCT23PT",
+    "type": "PT",
+    "startMonth": "OCT",
+    "startYear": 2023,
+    "studentCount": 2,
+    "studyPlan": "S24",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "JAN24FT",
+    "type": "FT",
+    "startMonth": "JAN",
+    "startYear": 2024,
+    "studentCount": 17,
+    "studyPlan": "S24",
+    "lms": "Moodle"
+  },
+  {
+    "id": "JAN24PT",
+    "type": "PT",
+    "startMonth": "JAN",
+    "startYear": 2024,
+    "studentCount": 7,
+    "studyPlan": "S24",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "MAR24FT",
+    "type": "FT",
+    "startMonth": "MAR",
+    "startYear": 2024,
+    "studentCount": 12,
+    "studyPlan": "S23",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "MAR24PT",
+    "type": "PT",
+    "startMonth": "MAR",
+    "startYear": 2024,
+    "studentCount": 2,
+    "studyPlan": "S23",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "AUG24FT",
+    "type": "FT",
+    "startMonth": "AUG",
+    "startYear": 2024,
+    "studentCount": 39,
+    "studyPlan": "S24",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "AUG24PT",
+    "type": "PT",
+    "startMonth": "AUG",
+    "startYear": 2024,
+    "studentCount": 11,
+    "studyPlan": "S24",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "OCT24FT",
+    "type": "FT",
+    "startMonth": "OCT",
+    "startYear": 2024,
+    "studentCount": 5,
+    "studyPlan": "S24",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "OCT24PT",
+    "type": "PT",
+    "startMonth": "OCT",
+    "startYear": 2024,
+    "studentCount": 4,
+    "studyPlan": "S24",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "JAN25FT",
+    "type": "FT",
+    "startMonth": "JAN",
+    "startYear": 2025,
+    "studentCount": 18,
+    "studyPlan": "S24",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "JAN25PT",
+    "type": "PT",
+    "startMonth": "JAN",
+    "startYear": 2025,
+    "studentCount": 4,
+    "studyPlan": "S24",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "MAR25FT",
+    "type": "FT",
+    "startMonth": "MAR",
+    "startYear": 2025,
+    "studentCount": 16,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "MAR25PT",
+    "type": "PT",
+    "startMonth": "MAR",
+    "startYear": 2025,
+    "studentCount": 5,
+    "studyPlan": "S24",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "AUG25FT",
+    "type": "FT",
+    "startMonth": "AUG",
+    "startYear": 2025,
+    "studentCount": 26,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "AUG25PT",
+    "type": "PT",
+    "startMonth": "AUG",
+    "startYear": 2025,
+    "studentCount": 6,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "OCT25FT",
+    "type": "FT",
+    "startMonth": "OCT",
+    "startYear": 2025,
+    "studentCount": 7,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "OCT25PT",
+    "type": "PT",
+    "startMonth": "OCT",
+    "startYear": 2025,
+    "studentCount": 6,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "JAN26FT",
+    "type": "FT",
+    "startMonth": "JAN",
+    "startYear": 2026,
+    "studentCount": 12,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "JAN26PT",
+    "type": "PT",
+    "startMonth": "JAN",
+    "startYear": 2026,
+    "studentCount": 3,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "MAR26FT",
+    "type": "FT",
+    "startMonth": "MAR",
+    "startYear": 2026,
+    "studentCount": 6,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "MAR26PT",
+    "type": "PT",
+    "startMonth": "MAR",
+    "startYear": 2026,
+    "studentCount": 3,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
+  }
+]
