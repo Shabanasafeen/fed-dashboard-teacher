@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: fed-dashboard-teacher
+    runtime: static
+    buildCommand: npm run build
+    staticPublishPath: ./dist
+    branch: main
+    autoDeploy: true
