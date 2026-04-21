@@ -26,6 +26,15 @@ function readJSON<T>(key: string, fallback: T): T {
   }
 }
 
+// Pre-compute last schedule date per intake for active/completed status
+export const intakeLastDate = new Map<string, string>();
+for (const entry of schedule) {
+  const prev = intakeLastDate.get(entry.intake);
+  if (!prev || entry.weekDate > prev) {
+    intakeLastDate.set(entry.intake, entry.weekDate);
+  }
+}
+
 // ── Merge localStorage data into the live arrays on module load ──────────────
 (function loadCustomData() {
   const overrides = readJSON<Record<string, number>>(KEY_OVERRIDES, {});
@@ -114,16 +123,6 @@ export function getTeacherByName(name: string): Teacher | undefined {
   return teachers.find(
     (t) => t.name.toLowerCase() === name.toLowerCase()
   );
-}
-
-// Pre-compute last schedule date per intake for active/completed status
-// (also updated above when custom schedule is merged)
-export const intakeLastDate = new Map<string, string>();
-for (const entry of schedule) {
-  const prev = intakeLastDate.get(entry.intake);
-  if (!prev || entry.weekDate > prev) {
-    intakeLastDate.set(entry.intake, entry.weekDate);
-  }
 }
 
 export function isIntakeActive(
