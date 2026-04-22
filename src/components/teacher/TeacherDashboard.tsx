@@ -2,7 +2,7 @@ import { useState, useMemo } from "react";
 import { teachers, courses } from "../../store";
 import {
   getTeacherCurrentCourses,
-  getNextCourseStart,
+  getNextCourseStarts,
 } from "../../utils/schedule";
 import { format, parseISO, startOfWeek } from "date-fns";
 
@@ -21,8 +21,8 @@ export function TeacherDashboard() {
     [selectedTeacher, today]
   );
 
-  const nextStart = useMemo(
-    () => getNextCourseStart(selectedTeacher, today),
+  const nextStarts = useMemo(
+    () => getNextCourseStarts(selectedTeacher, 3, today),
     [selectedTeacher, today]
   );
 
@@ -131,15 +131,41 @@ export function TeacherDashboard() {
         )}
       </div>
 
-      {/* Next course start */}
-      {nextStart && (
-        <div className="mb-6 bg-blue-50 rounded-xl p-4 border border-blue-100">
-          <p className="text-sm text-blue-700">
-            <span className="font-semibold">Next course start:</span>{" "}
-            {nextStart.courseName} on{" "}
-            {format(parseISO(nextStart.startDate), "MMMM d, yyyy")} (
-            {nextStart.intake})
-          </p>
+      {/* Upcoming course starts */}
+      {nextStarts.length > 0 && (
+        <div className="mb-6">
+          <h3 className="font-semibold text-gray-900 mb-3">Upcoming Course Starts</h3>
+          <div className="space-y-2">
+            {nextStarts.map((ns, i) => (
+              <div
+                key={`${ns.intake}-${ns.startDate}`}
+                className={`flex items-center justify-between px-4 py-3 rounded-xl border ${
+                  i === 0
+                    ? "bg-blue-50 border-blue-200"
+                    : "bg-gray-50 border-gray-200"
+                }`}
+              >
+                <div className="flex items-center gap-3">
+                  <span className={`text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full ${
+                    i === 0 ? "bg-blue-500 text-white" : "bg-gray-300 text-gray-600"
+                  }`}>
+                    {i + 1}
+                  </span>
+                  <span className={`font-medium text-sm ${i === 0 ? "text-blue-900" : "text-gray-700"}`}>
+                    {ns.courseName}
+                  </span>
+                  <span className={`text-xs px-2 py-0.5 rounded-full ${
+                    i === 0 ? "bg-blue-100 text-blue-600" : "bg-gray-200 text-gray-500"
+                  }`}>
+                    {ns.intake}
+                  </span>
+                </div>
+                <span className={`text-sm ${i === 0 ? "text-blue-700 font-semibold" : "text-gray-500"}`}>
+                  {format(parseISO(ns.startDate), "MMM d, yyyy")}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
       )}
 

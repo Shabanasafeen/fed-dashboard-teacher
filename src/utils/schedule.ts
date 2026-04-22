@@ -418,6 +418,38 @@ export function getNextCourseStart(
   return earliest;
 }
 
+export function getNextCourseStarts(
+  teacherName: string,
+  count: number = 3,
+  referenceDate: string = new Date().toISOString().slice(0, 10)
+): { courseName: string; startDate: string; intake: string }[] {
+  const teacherCourseAbbrevs = new Set<string>();
+  for (const course of courses) {
+    if (course.responsibleTeacher?.toLowerCase() === teacherName.toLowerCase()) {
+      teacherCourseAbbrevs.add(course.abbreviation);
+    }
+  }
+
+  const results: { courseName: string; startDate: string; intake: string }[] = [];
+
+  for (const entry of schedule) {
+    if (
+      entry.isCourseStart &&
+      entry.weekDate > referenceDate &&
+      teacherCourseAbbrevs.has(entry.courseAbbrev)
+    ) {
+      results.push({
+        courseName: getCourseName(entry.courseAbbrev),
+        startDate: entry.weekDate,
+        intake: entry.intake,
+      });
+    }
+  }
+
+  results.sort((a, b) => a.startDate.localeCompare(b.startDate));
+  return results.slice(0, count);
+}
+
 export interface WeeklyTeacherLoad {
   weekDate: string;
   calendarWeek: string;
