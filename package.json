@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:teacher": "tsc -b && VITE_ROLE=teacher vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
