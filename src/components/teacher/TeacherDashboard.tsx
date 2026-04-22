@@ -87,15 +87,7 @@ export function TeacherDashboard() {
                         <div key={cc.courseAbbrev} className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
                           <div className="flex items-start justify-between mb-3">
                             <h4 className="font-semibold text-gray-900">{cc.courseName}</h4>
-                            <a
-                              href="https://google.com"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-xs bg-indigo-50 text-indigo-600 px-3 py-1.5 rounded-lg hover:bg-indigo-100 transition-colors shrink-0 ml-2"
-                            >
-                              Open Moodle
-                            </a>
-                          </div>
+                            </div>
                           <div className="text-sm text-gray-600 space-y-1">
                             <p>
                               <span className="text-gray-400">Intakes:</span>{" "}
