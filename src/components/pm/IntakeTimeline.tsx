@@ -151,7 +151,6 @@ export function IntakeTimeline() {
   const today = new Date().toISOString().slice(0, 10);
   const [filterType, setFilterType] = useState<"all" | "FT" | "PT">("all");
   const [filterTeacher, setFilterTeacher] = useState<string>("all");
-  const [showCompleted, setShowCompleted] = useState(false);
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
   const allTeachers = useMemo(
@@ -182,7 +181,7 @@ export function IntakeTimeline() {
 
   const filtered = useMemo(() => {
     return snapshots.filter((s) => {
-      if (!showCompleted && s.status === "completed") return false;
+      if (s.status === "completed") return false;
       if (filterType !== "all" && s.type !== filterType) return false;
       if (filterTeacher !== "all") {
         const isTeaching =
@@ -192,11 +191,10 @@ export function IntakeTimeline() {
       }
       return true;
     });
-  }, [snapshots, showCompleted, filterType, filterTeacher]);
+  }, [snapshots, filterType, filterTeacher]);
 
   const active = filtered.filter((s) => s.status === "active");
   const upcoming = filtered.filter((s) => s.status === "upcoming");
-  const completed = filtered.filter((s) => s.status === "completed");
 
   return (
     <div>
@@ -234,15 +232,6 @@ export function IntakeTimeline() {
           ))}
         </select>
 
-        <label className="flex items-center gap-2 text-sm text-gray-600 ml-auto cursor-pointer">
-          <input
-            type="checkbox"
-            checked={showCompleted}
-            onChange={(e) => setShowCompleted(e.target.checked)}
-            className="rounded"
-          />
-          Show completed
-        </label>
       </div>
 
       {/* Teacher legend */}
@@ -288,19 +277,6 @@ export function IntakeTimeline() {
         />
       )}
 
-      {/* Completed */}
-      {showCompleted && completed.length > 0 && (
-        <Section
-          title="Completed"
-          badge={`${completed.length}`}
-          badgeColor="bg-gray-100 text-gray-600"
-          snapshots={completed}
-          today={today}
-          expandedId={expandedId}
-          onToggle={(id) => setExpandedId(expandedId === id ? null : id)}
-          allBlocks={buildCourseBlocks}
-        />
-      )}
 
       {filtered.length === 0 && (
         <div className="bg-gray-50 rounded-xl p-8 text-center text-gray-500">
