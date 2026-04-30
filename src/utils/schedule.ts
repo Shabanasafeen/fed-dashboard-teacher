@@ -345,6 +345,19 @@ export function getUpcomingAssignments(
     }
   }
 
+  // Collect the last assignment week per intake+course (some courses mark
+  // multiple consecutive weeks as isAssignmentWeek; only the final one is
+  // the actual submission deadline).
+  const lastWeekByKey = new Map<string, string>();
+  for (const entry of schedule) {
+    if (!entry.isAssignmentWeek || !teacherCourseAbbrevs.has(entry.courseAbbrev)) continue;
+    const key = `${entry.intake}::${entry.courseAbbrev}`;
+    const existing = lastWeekByKey.get(key);
+    if (!existing || entry.weekDate > existing) {
+      lastWeekByKey.set(key, entry.weekDate);
+    }
+  }
+
   const assignments: {
     courseName: string;
     courseAbbrev: string;
@@ -354,27 +367,20 @@ export function getUpcomingAssignments(
     studentCount: number;
   }[] = [];
 
-  for (const entry of schedule) {
-    // delivery is Sunday of the assignment week (Monday + 6 days)
-    const deliveryDate = addDays(entry.weekDate, 6);
-    // grading deadline is Friday of the 3rd week after delivery (Sunday + 19 days = Fri 3 weeks later)
+  for (const [key, weekDate] of lastWeekByKey) {
+    const [intakeId, courseAbbrev] = key.split("::");
+    const deliveryDate = addDays(weekDate, 6);
     const gradingDeadline = addDays(deliveryDate, 19);
-
-    if (
-      entry.isAssignmentWeek &&
-      gradingDeadline >= referenceDate &&
-      teacherCourseAbbrevs.has(entry.courseAbbrev)
-    ) {
-      const intake = intakes.find((i) => i.id === entry.intake);
-      assignments.push({
-        courseName: getCourseName(entry.courseAbbrev),
-        courseAbbrev: entry.courseAbbrev,
-        intake: entry.intake,
-        deliveryDate,
-        gradingDeadline,
-        studentCount: intake?.studentCount || 0,
-      });
-    }
+    if (gradingDeadline < referenceDate) continue;
+    const intake = intakes.find((i) => i.id === intakeId);
+    assignments.push({
+      courseName: getCourseName(courseAbbrev),
+      courseAbbrev,
+      intake: intakeId,
+      deliveryDate,
+      gradingDeadline,
+      studentCount: intake?.studentCount || 0,
+    });
   }
 
   return assignments.sort((a, b) => a.gradingDeadline.localeCompare(b.gradingDeadline));
