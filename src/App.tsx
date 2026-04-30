@@ -5,12 +5,13 @@ import { PmOverview } from "./components/pm/PmOverview";
 import { IntakeTimeline } from "./components/pm/IntakeTimeline";
 import { WorkloadChart } from "./components/pm/WorkloadChart";
 import { ScenarioSim } from "./components/pm/ScenarioSim";
+import { Aug2026Sim } from "./components/pm/Aug2026Sim";
 import { IntakeManager } from "./components/pm/IntakeManager";
 import { TeacherDashboard } from "./components/teacher/TeacherDashboard";
 import { GradingDeadlines } from "./components/teacher/GradingDeadlines";
 import { CourseDirectory } from "./components/teacher/CourseDirectory";
 
-type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes";
+type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes" | "aug2026";
 type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist";
 
 const TEACHER_ONLY = import.meta.env.VITE_ROLE === "teacher";
@@ -38,6 +39,7 @@ function App() {
           {role === "pm" && pmPage === "workload" && <WorkloadChart />}
           {role === "pm" && pmPage === "scenario" && <ScenarioSim />}
           {role === "pm" && pmPage === "intakes" && <IntakeManager />}
+          {role === "pm" && pmPage === "aug2026" && <Aug2026Sim />}
           {role === "teacher" && teacherPage === "dashboard" && (
             <TeacherDashboard />
           )}

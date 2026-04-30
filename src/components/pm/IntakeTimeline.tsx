@@ -1,6 +1,10 @@
 import { useState, useMemo } from "react";
 import { intakes, schedule, courses } from "../../store";
-import { format, parseISO } from "date-fns";
+import { format, parseISO, addDays } from "date-fns";
+
+function weekEnd(weekDate: string): string {
+  return addDays(parseISO(weekDate), 6).toISOString().slice(0, 10);
+}
 
 // ── Teacher colour palette (consistent across the page) ───────────────────────
 const TEACHER_COLORS: Record<string, { bg: string; text: string; dot: string }> = {
@@ -49,7 +53,7 @@ function buildCourseBlocks(intakeId: string): CourseBlock[] {
           courseName: c?.name ?? cur.abbrev,
           teacher: c?.responsibleTeacher ?? null,
           startDate: cur.start,
-          endDate: cur.end,
+          endDate: weekEnd(cur.end),
           totalWeeks: cur.weeks,
           hasAssignment: cur.hasAssignment,
         });
@@ -68,7 +72,7 @@ function buildCourseBlocks(intakeId: string): CourseBlock[] {
       courseName: c?.name ?? cur.abbrev,
       teacher: c?.responsibleTeacher ?? null,
       startDate: cur.start,
-      endDate: cur.end,
+      endDate: weekEnd(cur.end),
       totalWeeks: cur.weeks,
       hasAssignment: cur.hasAssignment,
     });

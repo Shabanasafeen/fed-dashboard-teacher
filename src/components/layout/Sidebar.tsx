@@ -1,6 +1,6 @@
 import type { Role } from "../../types";
 
-type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes";
+type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes" | "aug2026";
 type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist";
 
 interface SidebarProps {
@@ -96,6 +96,12 @@ export function Sidebar({
               icon="🎓"
               active={pmPage === "intakes"}
               onClick={() => onPmPageChange("intakes")}
+            />
+            <NavItem
+              label="Aug 2026 Scenario"
+              icon="📋"
+              active={pmPage === "aug2026"}
+              onClick={() => onPmPageChange("aug2026")}
             />
           </ul>
         ) : (
