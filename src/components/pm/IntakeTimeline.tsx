@@ -188,15 +188,7 @@ export function IntakeTimeline() {
       if (s.status === "completed") return false;
       if (filterType !== "all" && s.type !== filterType) return false;
       if (filterTeacher !== "all") {
-        const teacherCourseAbbrevs = new Set(
-          courses
-            .filter((c) => c.responsibleTeacher === filterTeacher)
-            .map((c) => c.abbreviation)
-        );
-        const intakeHasTeacher = schedule.some(
-          (e) => e.intake === s.intakeId && teacherCourseAbbrevs.has(e.courseAbbrev)
-        );
-        if (!intakeHasTeacher) return false;
+        if (s.current?.teacher !== filterTeacher) return false;
       }
       return true;
     });
