@@ -188,10 +188,15 @@ export function IntakeTimeline() {
       if (s.status === "completed") return false;
       if (filterType !== "all" && s.type !== filterType) return false;
       if (filterTeacher !== "all") {
-        const isTeaching =
-          s.current?.teacher === filterTeacher ||
-          s.upcoming.some((u) => u.teacher === filterTeacher);
-        if (!isTeaching) return false;
+        const teacherCourseAbbrevs = new Set(
+          courses
+            .filter((c) => c.responsibleTeacher === filterTeacher)
+            .map((c) => c.abbreviation)
+        );
+        const intakeHasTeacher = schedule.some(
+          (e) => e.intake === s.intakeId && teacherCourseAbbrevs.has(e.courseAbbrev)
+        );
+        if (!intakeHasTeacher) return false;
       }
       return true;
     });
