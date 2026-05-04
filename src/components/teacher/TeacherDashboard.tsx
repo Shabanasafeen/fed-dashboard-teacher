@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useMemo } from "react";
 import { teachers, courses, schedule } from "../../store";
 import {
   getTeacherCurrentCourses,
@@ -6,10 +6,12 @@ import {
 } from "../../utils/schedule";
 import { format, parseISO, startOfWeek } from "date-fns";
 
-export function TeacherDashboard() {
-  const [selectedTeacher, setSelectedTeacher] = useState(
-    teachers[0]?.name || ""
-  );
+interface Props {
+  selectedTeacher: string;
+  onTeacherChange: (name: string) => void;
+}
+
+export function TeacherDashboard({ selectedTeacher, onTeacherChange }: Props) {
 
   const today = new Date().toISOString().slice(0, 10);
   const weekStart = startOfWeek(new Date(), { weekStartsOn: 1 })
@@ -51,7 +53,7 @@ export function TeacherDashboard() {
         </label>
         <select
           value={selectedTeacher}
-          onChange={(e) => setSelectedTeacher(e.target.value)}
+          onChange={(e) => onTeacherChange(e.target.value)}
           className="border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white min-w-[250px]"
         >
           {teachers.map((t) => (

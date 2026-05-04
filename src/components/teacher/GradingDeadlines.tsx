@@ -1,12 +1,14 @@
 import { useState, useMemo } from "react";
 import { teachers } from "../../store";
+
+interface Props {
+  selectedTeacher: string;
+  onTeacherChange: (name: string) => void;
+}
 import { getUpcomingAssignments } from "../../utils/schedule";
 import { format, parseISO, differenceInDays } from "date-fns";
 
-export function GradingDeadlines() {
-  const [selectedTeacher, setSelectedTeacher] = useState(
-    teachers[0]?.name || ""
-  );
+export function GradingDeadlines({ selectedTeacher, onTeacherChange }: Props) {
   const [showUpcoming, setShowUpcoming] = useState(false);
 
   const today = new Date().toISOString().slice(0, 10);
@@ -37,7 +39,7 @@ export function GradingDeadlines() {
         </label>
         <select
           value={selectedTeacher}
-          onChange={(e) => setSelectedTeacher(e.target.value)}
+          onChange={(e) => onTeacherChange(e.target.value)}
           className="border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white min-w-[250px]"
         >
           {teachers.map((t) => (

@@ -16,6 +16,7 @@ export const abbreviations: Record<string, string> =
 const KEY_INTAKES = "fed_custom_intakes";
 const KEY_SCHEDULE = "fed_custom_schedule";
 const KEY_OVERRIDES = "fed_student_overrides";
+const KEY_SELECTED_TEACHER = "fed_selected_teacher";
 
 function readJSON<T>(key: string, fallback: T): T {
   try {
@@ -103,6 +104,20 @@ export function deleteCustomIntake(intakeId: string): void {
 /** True if the intake was added via the UI (not in the base JSON). */
 export function isCustomIntake(intakeId: string): boolean {
   return readJSON<Intake[]>(KEY_INTAKES, []).some((i) => i.id === intakeId);
+}
+
+/** Read the persisted teacher name, falling back to the first teacher. */
+export function getPersistedTeacher(): string {
+  try {
+    return localStorage.getItem(KEY_SELECTED_TEACHER) || teachers[0]?.name || "";
+  } catch {
+    return teachers[0]?.name || "";
+  }
+}
+
+/** Persist the selected teacher name. */
+export function persistSelectedTeacher(name: string): void {
+  localStorage.setItem(KEY_SELECTED_TEACHER, name);
 }
 
 // ── Static helpers ────────────────────────────────────────────────────────────

@@ -10,6 +10,7 @@ import { IntakeManager } from "./components/pm/IntakeManager";
 import { TeacherDashboard } from "./components/teacher/TeacherDashboard";
 import { GradingDeadlines } from "./components/teacher/GradingDeadlines";
 import { CourseDirectory } from "./components/teacher/CourseDirectory";
+import { getPersistedTeacher, persistSelectedTeacher } from "./store";
 
 type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes" | "aug2026";
 type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist";
@@ -20,6 +21,12 @@ function App() {
   const [role, setRole] = useState<Role>(TEACHER_ONLY ? "teacher" : "pm");
   const [pmPage, setPmPage] = useState<PmPage>("overview");
   const [teacherPage, setTeacherPage] = useState<TeacherPage>("dashboard");
+  const [selectedTeacher, setSelectedTeacher] = useState<string>(getPersistedTeacher);
+
+  function handleTeacherChange(name: string) {
+    setSelectedTeacher(name);
+    persistSelectedTeacher(name);
+  }
 
   return (
     <div className="flex h-screen bg-gray-50">
@@ -41,10 +48,10 @@ function App() {
           {role === "pm" && pmPage === "intakes" && <IntakeManager />}
           {role === "pm" && pmPage === "aug2026" && <Aug2026Sim />}
           {role === "teacher" && teacherPage === "dashboard" && (
-            <TeacherDashboard />
+            <TeacherDashboard selectedTeacher={selectedTeacher} onTeacherChange={handleTeacherChange} />
           )}
           {role === "teacher" && teacherPage === "grading" && (
-            <GradingDeadlines />
+            <GradingDeadlines selectedTeacher={selectedTeacher} onTeacherChange={handleTeacherChange} />
           )}
           {role === "teacher" && teacherPage === "courses" && (
             <CourseDirectory />
