@@ -436,7 +436,8 @@ export function getNextCourseStarts(
     }
   }
 
-  const results: { courseName: string; startDate: string; intake: string }[] = [];
+  // Deduplicate by intake+course, keeping the earliest start date
+  const earliest = new Map<string, { courseName: string; startDate: string; intake: string }>();
 
   for (const entry of schedule) {
     if (
@@ -444,16 +445,21 @@ export function getNextCourseStarts(
       entry.weekDate > referenceDate &&
       teacherCourseAbbrevs.has(entry.courseAbbrev)
     ) {
-      results.push({
-        courseName: getCourseName(entry.courseAbbrev),
-        startDate: entry.weekDate,
-        intake: entry.intake,
-      });
+      const key = `${entry.intake}::${entry.courseAbbrev}`;
+      const existing = earliest.get(key);
+      if (!existing || entry.weekDate < existing.startDate) {
+        earliest.set(key, {
+          courseName: getCourseName(entry.courseAbbrev),
+          startDate: entry.weekDate,
+          intake: entry.intake,
+        });
+      }
     }
   }
 
-  results.sort((a, b) => a.startDate.localeCompare(b.startDate));
-  return results.slice(0, count);
+  return [...earliest.values()]
+    .sort((a, b) => a.startDate.localeCompare(b.startDate))
+    .slice(0, count);
 }
 
 export interface WeeklyTeacherLoad {
