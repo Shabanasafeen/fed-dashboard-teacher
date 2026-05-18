@@ -3101,7 +3101,7 @@
     "calendarWeek": "Week 35",
     "courseAbbrev": "CMS",
     "courseWeekNumber": 32,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3110,7 +3110,7 @@
     "calendarWeek": "Week 36",
     "courseAbbrev": "CMS",
     "courseWeekNumber": 32,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3389,7 +3389,7 @@
     "calendarWeek": "Week 19",
     "courseAbbrev": "JS2",
     "courseWeekNumber": 8,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3398,7 +3398,7 @@
     "calendarWeek": "Week 20",
     "courseAbbrev": "JS2",
     "courseWeekNumber": 8,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3551,7 +3551,7 @@
     "calendarWeek": "Week 46",
     "courseAbbrev": "SP2",
     "courseWeekNumber": 17,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3560,7 +3560,7 @@
     "calendarWeek": "Week 47",
     "courseAbbrev": "SP2",
     "courseWeekNumber": 17,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3785,7 +3785,7 @@
     "calendarWeek": "Week 23",
     "courseAbbrev": "JSF",
     "courseWeekNumber": 30,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3794,7 +3794,7 @@
     "calendarWeek": "Week 33",
     "courseAbbrev": "JSF",
     "courseWeekNumber": 30,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3911,7 +3911,7 @@
     "calendarWeek": "Week 46",
     "courseAbbrev": "PE2",
     "courseWeekNumber": 37,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3920,7 +3920,7 @@
     "calendarWeek": "Week 47",
     "courseAbbrev": "PE2",
     "courseWeekNumber": 37,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3947,7 +3947,7 @@
     "calendarWeek": "Week 50",
     "courseAbbrev": "POR2",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -3956,7 +3956,7 @@
     "calendarWeek": "Week 51",
     "courseAbbrev": "POR2",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -4361,7 +4361,7 @@
     "calendarWeek": "Week 37",
     "courseAbbrev": "JS2",
     "courseWeekNumber": 8,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -4370,7 +4370,7 @@
     "calendarWeek": "Week 38",
     "courseAbbrev": "JS2",
     "courseWeekNumber": 8,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -4523,7 +4523,7 @@
     "calendarWeek": "Week 5",
     "courseAbbrev": "SP2",
     "courseWeekNumber": 17,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -4532,7 +4532,7 @@
     "calendarWeek": "Week 6",
     "courseAbbrev": "SP2",
     "courseWeekNumber": 17,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -4757,7 +4757,7 @@
     "calendarWeek": "Week 41",
     "courseAbbrev": "JSF",
     "courseWeekNumber": 30,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -4766,7 +4766,7 @@
     "calendarWeek": "Week 42",
     "courseAbbrev": "JSF",
     "courseWeekNumber": 30,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -4883,7 +4883,7 @@
     "calendarWeek": "Week 4",
     "courseAbbrev": "PE2",
     "courseWeekNumber": 37,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -4892,7 +4892,7 @@
     "calendarWeek": "Week 5",
     "courseAbbrev": "PE2",
     "courseWeekNumber": 37,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -4919,7 +4919,7 @@
     "calendarWeek": "Week 8",
     "courseAbbrev": "POR2",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -4928,7 +4928,7 @@
     "calendarWeek": "Week 9",
     "courseAbbrev": "POR2",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5405,7 +5405,7 @@
     "calendarWeek": "Week 45",
     "courseAbbrev": "JS2",
     "courseWeekNumber": 6,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5414,7 +5414,7 @@
     "calendarWeek": "Week 46",
     "courseAbbrev": "JS2",
     "courseWeekNumber": 6,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5459,7 +5459,7 @@
     "calendarWeek": "Week 51",
     "courseAbbrev": "WFL",
     "courseWeekNumber": 9,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5468,7 +5468,7 @@
     "calendarWeek": "Week 2",
     "courseAbbrev": "WFL",
     "courseWeekNumber": 9,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5513,7 +5513,7 @@
     "calendarWeek": "Week 7",
     "courseAbbrev": "CSS",
     "courseWeekNumber": 12,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5522,7 +5522,7 @@
     "calendarWeek": "Week 8",
     "courseAbbrev": "CSS",
     "courseWeekNumber": 12,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5603,7 +5603,7 @@
     "calendarWeek": "Week 18",
     "courseAbbrev": "SP2",
     "courseWeekNumber": 17,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5612,7 +5612,7 @@
     "calendarWeek": "Week 19",
     "courseAbbrev": "SP2",
     "courseWeekNumber": 17,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5675,7 +5675,7 @@
     "calendarWeek": "Week 35",
     "courseAbbrev": "DVP",
     "courseWeekNumber": 21,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5684,7 +5684,7 @@
     "calendarWeek": "Week 36",
     "courseAbbrev": "DVP",
     "courseWeekNumber": 21,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5783,7 +5783,7 @@
     "calendarWeek": "Week 47",
     "courseAbbrev": "JSF",
     "courseWeekNumber": 27,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5792,7 +5792,7 @@
     "calendarWeek": "Week 48",
     "courseAbbrev": "JSF",
     "courseWeekNumber": 27,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5855,7 +5855,7 @@
     "calendarWeek": "Week 4",
     "courseAbbrev": "AGC2",
     "courseWeekNumber": 31,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5864,7 +5864,7 @@
     "calendarWeek": "Week 5",
     "courseAbbrev": "AGC2",
     "courseWeekNumber": 31,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5963,7 +5963,7 @@
     "calendarWeek": "Week 17",
     "courseAbbrev": "PE2",
     "courseWeekNumber": 37,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5972,7 +5972,7 @@
     "calendarWeek": "Week 18",
     "courseAbbrev": "PE2",
     "courseWeekNumber": 37,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -5999,7 +5999,7 @@
     "calendarWeek": "Week 21",
     "courseAbbrev": "POR2",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6008,7 +6008,7 @@
     "calendarWeek": "Week 22",
     "courseAbbrev": "POR2",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6404,7 +6404,7 @@
     "calendarWeek": "Week 36",
     "courseAbbrev": "PE1",
     "courseWeekNumber": 37,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6413,7 +6413,7 @@
     "calendarWeek": "Week 37",
     "courseAbbrev": "PE1",
     "courseWeekNumber": 37,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6422,7 +6422,7 @@
     "calendarWeek": "Week 38",
     "courseAbbrev": "POR1",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": true
   },
   {
@@ -6431,7 +6431,7 @@
     "calendarWeek": "Week 39",
     "courseAbbrev": "POR1",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": true
   },
   {
@@ -6566,7 +6566,7 @@
     "calendarWeek": "Week 4",
     "courseAbbrev": "JS2",
     "courseWeekNumber": 6,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6575,7 +6575,7 @@
     "calendarWeek": "Week 5",
     "courseAbbrev": "JS2",
     "courseWeekNumber": 6,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6620,7 +6620,7 @@
     "calendarWeek": "Week 10",
     "courseAbbrev": "WFL",
     "courseWeekNumber": 9,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6629,7 +6629,7 @@
     "calendarWeek": "Week 11",
     "courseAbbrev": "WFL",
     "courseWeekNumber": 9,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6674,7 +6674,7 @@
     "calendarWeek": "Week 17",
     "courseAbbrev": "CSS",
     "courseWeekNumber": 12,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6683,7 +6683,7 @@
     "calendarWeek": "Week 18",
     "courseAbbrev": "CSS",
     "courseWeekNumber": 12,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6764,7 +6764,7 @@
     "calendarWeek": "Week 36",
     "courseAbbrev": "SP2",
     "courseWeekNumber": 17,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6773,7 +6773,7 @@
     "calendarWeek": "Week 37",
     "courseAbbrev": "SP2",
     "courseWeekNumber": 17,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6836,7 +6836,7 @@
     "calendarWeek": "Week 44",
     "courseAbbrev": "DVP",
     "courseWeekNumber": 21,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6845,7 +6845,7 @@
     "calendarWeek": "Week 45",
     "courseAbbrev": "DVP",
     "courseWeekNumber": 21,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6944,7 +6944,7 @@
     "calendarWeek": "Week 5",
     "courseAbbrev": "JSF",
     "courseWeekNumber": 27,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -6953,7 +6953,7 @@
     "calendarWeek": "Week 6",
     "courseAbbrev": "JSF",
     "courseWeekNumber": 27,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -7016,7 +7016,7 @@
     "calendarWeek": "Week 14",
     "courseAbbrev": "AGC2",
     "courseWeekNumber": 31,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -7025,7 +7025,7 @@
     "calendarWeek": "Week 15",
     "courseAbbrev": "AGC2",
     "courseWeekNumber": 31,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -7124,7 +7124,7 @@
     "calendarWeek": "Week 35",
     "courseAbbrev": "PE2",
     "courseWeekNumber": 37,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -7133,7 +7133,7 @@
     "calendarWeek": "Week 36",
     "courseAbbrev": "PE2",
     "courseWeekNumber": 37,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -7160,7 +7160,7 @@
     "calendarWeek": "Week 39",
     "courseAbbrev": "POR2",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -7169,7 +7169,7 @@
     "calendarWeek": "Week 40",
     "courseAbbrev": "POR2",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -12434,7 +12434,7 @@
     "calendarWeek": "Week 22",
     "courseAbbrev": "POR1",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -12443,7 +12443,7 @@
     "calendarWeek": "Week 23",
     "courseAbbrev": "POR1",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -13325,7 +13325,7 @@
     "calendarWeek": "Week 9",
     "courseAbbrev": "SP1",
     "courseWeekNumber": 17,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
