@@ -10,10 +10,11 @@ import { IntakeManager } from "./components/pm/IntakeManager";
 import { TeacherDashboard } from "./components/teacher/TeacherDashboard";
 import { GradingDeadlines } from "./components/teacher/GradingDeadlines";
 import { CourseDirectory } from "./components/teacher/CourseDirectory";
+import { CourseResponsibilitiesAug2026 } from "./components/teacher/CourseResponsibilitiesAug2026";
 import { getPersistedTeacher, persistSelectedTeacher } from "./store";
 
 type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes" | "aug2026";
-type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist";
+type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "aug2026courses";
 
 const TEACHER_ONLY = import.meta.env.VITE_ROLE === "teacher";
 
@@ -58,6 +59,9 @@ function App() {
           )}
           {role === "teacher" && teacherPage === "accesslist" && (
             <IntakeTimeline />
+          )}
+          {role === "teacher" && teacherPage === "aug2026courses" && (
+            <CourseResponsibilitiesAug2026 />
           )}
         </div>
       </main>
