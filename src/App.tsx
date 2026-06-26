@@ -12,10 +12,11 @@ import { GradingDeadlines } from "./components/teacher/GradingDeadlines";
 import { CourseDirectory } from "./components/teacher/CourseDirectory";
 import { CourseResponsibilitiesAug2026 } from "./components/teacher/CourseResponsibilitiesAug2026";
 import { AccessListAug2026 } from "./components/teacher/AccessListAug2026";
+import { GradingDeadlinesAug2026 } from "./components/teacher/GradingDeadlinesAug2026";
 import { getPersistedTeacher, persistSelectedTeacher } from "./store";
 
 type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes" | "aug2026";
-type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "aug2026courses" | "aug2026accesslist";
+type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "aug2026courses" | "aug2026accesslist" | "aug2026grading";
 
 const TEACHER_ONLY = import.meta.env.VITE_ROLE === "teacher";
 
@@ -66,6 +67,9 @@ function App() {
           )}
           {role === "teacher" && teacherPage === "aug2026accesslist" && (
             <AccessListAug2026 />
+          )}
+          {role === "teacher" && teacherPage === "aug2026grading" && (
+            <GradingDeadlinesAug2026 />
           )}
         </div>
       </main>
