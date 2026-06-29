@@ -91,18 +91,6 @@ export function CourseResponsibilitiesAug2026() {
         </p>
       </div>
 
-      {/* Context banner */}
-      <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-5">
-        <p className="text-sm font-semibold text-blue-800 mb-1">Context — June 2026</p>
-        <p className="text-sm text-blue-700">
-          This plan models the FED programme following a team restructure. The academic team from August 2026
-          consists of <strong>Lasse Hægland</strong>, <strong>Monde</strong>, and{" "}
-          <strong>Adrian D Souza</strong>. Programme introduction sessions remain with the{" "}
-          <strong>Program Manager</strong>. Second and third teacher roles are distributed evenly across the three
-          academic staff to ensure cover and continuity.
-        </p>
-      </div>
-
       {/* Distribution summary */}
       <div className="grid grid-cols-3 gap-4 mb-6">
         {CORE_TEACHERS.map((name) => {
