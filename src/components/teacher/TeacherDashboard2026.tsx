@@ -8,6 +8,29 @@ import { format, parseISO, startOfWeek } from "date-fns";
 
 const AUG2026_TEACHERS = ["Monde", "Lasse Hægland", "Adrian D Souza"];
 
+const AUG2026_RESPONSIBLE: Record<string, string> = {
+  INTRO:  "Shabana Jahan",
+  DES:    "Monde",
+  HTML:   "Adrian D Souza",
+  PME:    "Lasse Hægland",
+  SP1:    "Lasse Hægland",
+  JS1:    "Lasse Hægland",
+  AGC1:   "Adrian D Souza",
+  PE1:    "Monde",
+  POR1:   "Lasse Hægland",
+  JS2:    "Lasse Hægland",
+  WFL:    "Monde",
+  CSS:    "Monde",
+  SP2:    "Adrian D Souza",
+  DVP:    "Monde",
+  JSF:    "Adrian D Souza",
+  AGC2:   "Monde",
+  PE2:    "Adrian D Souza",
+  POR2:   "Lasse Hægland",
+};
+
+const AUG2026_OVERRIDES = new Map(Object.entries(AUG2026_RESPONSIBLE));
+
 interface Props {
   selectedTeacher: string;
   onTeacherChange: (name: string) => void;
@@ -21,7 +44,7 @@ export function TeacherDashboard2026({ selectedTeacher, onTeacherChange }: Props
     .slice(0, 10);
 
   const currentCourses = useMemo(
-    () => getTeacherCurrentCourses(selectedTeacher, today),
+    () => getTeacherCurrentCourses(selectedTeacher, today, AUG2026_OVERRIDES),
     [selectedTeacher, today]
   );
 
