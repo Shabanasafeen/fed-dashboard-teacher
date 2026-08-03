@@ -49,7 +49,7 @@ export function TeacherDashboard2026({ selectedTeacher, onTeacherChange }: Props
   );
 
   const nextStarts = useMemo(
-    () => getNextCourseStarts(selectedTeacher, 3, today),
+    () => getNextCourseStarts(selectedTeacher, 3, today, AUG2026_OVERRIDES),
     [selectedTeacher, today]
   );
 

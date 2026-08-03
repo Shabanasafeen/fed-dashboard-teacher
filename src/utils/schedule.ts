@@ -428,11 +428,13 @@ export function getNextCourseStart(
 export function getNextCourseStarts(
   teacherName: string,
   count: number = 3,
-  referenceDate: string = new Date().toISOString().slice(0, 10)
+  referenceDate: string = new Date().toISOString().slice(0, 10),
+  courseOverrides?: Map<string, string>
 ): { courseName: string; startDate: string; intake: string }[] {
   const teacherCourseAbbrevs = new Set<string>();
   for (const course of courses) {
-    if (course.responsibleTeacher?.toLowerCase() === teacherName.toLowerCase()) {
+    const responsible = courseOverrides?.get(course.abbreviation) ?? course.responsibleTeacher;
+    if (responsible?.toLowerCase() === teacherName.toLowerCase()) {
       teacherCourseAbbrevs.add(course.abbreviation);
     }
   }
