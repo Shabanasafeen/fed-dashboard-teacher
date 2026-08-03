@@ -174,8 +174,9 @@ export function AccessListAug2026() {
   const today = useSimDate ? SIM_DATE : new Date().toISOString().slice(0, 10);
 
   const snapshots = useMemo(() => {
+    const intakesWithSchedule = new Set(schedule.map((e) => e.intake));
     return intakes
-      .filter((i) => i.studentCount > 0)
+      .filter((i) => intakesWithSchedule.has(i.id))
       .map((i) => buildSnapshot(i.id, today))
       .sort((a, b) => {
         const statusOrder = { active: 0, upcoming: 1, completed: 2 };
@@ -403,7 +404,9 @@ function IntakeSection({
                       )}
                     </td>
 
-                    <td className="px-3 py-3 text-gray-700 font-medium">{s.studentCount}</td>
+                    <td className="px-3 py-3 text-gray-700 font-medium">
+                      {s.studentCount > 0 ? s.studentCount : <span className="text-amber-600 text-xs font-semibold">TBD</span>}
+                    </td>
 
                     <td className="px-3 py-3">
                       {s.current ? (
