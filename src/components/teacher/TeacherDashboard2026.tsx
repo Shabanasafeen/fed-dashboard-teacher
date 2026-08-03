@@ -6,15 +6,15 @@ import {
 } from "../../utils/schedule";
 import { format, parseISO, startOfWeek } from "date-fns";
 
+const AUG2026_TEACHERS = ["Monde", "Lasse Hægland", "Adrian D Souza"];
+
 interface Props {
   selectedTeacher: string;
   onTeacherChange: (name: string) => void;
 }
 
-const CURRENT_TEACHERS = ["Monde", "Lasse Hægland", "Adrian D Souza"];
-
-export function TeacherDashboard({ selectedTeacher, onTeacherChange }: Props) {
-  const activeTeachers = teachers.filter((t) => CURRENT_TEACHERS.includes(t.name));
+export function TeacherDashboard2026({ selectedTeacher, onTeacherChange }: Props) {
+  const activeTeachers = teachers.filter((t) => AUG2026_TEACHERS.includes(t.name));
 
   const today = new Date().toISOString().slice(0, 10);
   const weekStart = startOfWeek(new Date(), { weekStartsOn: 1 })
@@ -31,7 +31,6 @@ export function TeacherDashboard({ selectedTeacher, onTeacherChange }: Props) {
     [selectedTeacher, today]
   );
 
-  // For a given intake+course, return { currentWeek, totalWeeks }
   function getCourseWeek(intakeId: string, courseAbbrev: string) {
     const entries = schedule
       .filter((e) => e.intake === intakeId && e.courseAbbrev === courseAbbrev)
@@ -44,9 +43,14 @@ export function TeacherDashboard({ selectedTeacher, onTeacherChange }: Props) {
   return (
     <div>
       <div className="mb-6">
-        <h2 className="text-2xl font-bold text-gray-900">Teacher Dashboard</h2>
+        <div className="flex items-center gap-3 mb-1">
+          <h2 className="text-2xl font-bold text-gray-900">Teacher Dashboard</h2>
+          <span className="text-xs font-semibold px-3 py-1 rounded-full bg-indigo-100 text-indigo-700">
+            Aug 2026
+          </span>
+        </div>
         <p className="text-gray-500 mt-1">
-          Current and upcoming course information
+          Current and upcoming course information — Monde, Lasse &amp; Adrian
         </p>
       </div>
 
@@ -88,8 +92,6 @@ export function TeacherDashboard({ selectedTeacher, onTeacherChange }: Props) {
               const group = currentCourses.filter((cc) => cc.role === role);
               if (group.length === 0) return null;
 
-              // For responsible: one card per intake
-              // For 2nd/3rd: keep original one-card-per-course layout
               if (role === "responsible") {
                 const intakeCards = group.flatMap((cc) =>
                   cc.intakes.map((intakeId) => {
@@ -118,7 +120,6 @@ export function TeacherDashboard({ selectedTeacher, onTeacherChange }: Props) {
                             </span>
                           </div>
 
-                          {/* Week progress */}
                           <div className="mb-3">
                             <div className="flex justify-between text-xs text-gray-500 mb-1">
                               <span>Week {item.currentWeek} of {item.totalWeeks}</span>
@@ -147,7 +148,6 @@ export function TeacherDashboard({ selectedTeacher, onTeacherChange }: Props) {
                 );
               }
 
-              // 2nd / 3rd substitute — original layout
               return (
                 <div key={role}>
                   <div className={`flex items-center gap-2 px-4 py-2 rounded-lg border mb-3 ${header}`}>

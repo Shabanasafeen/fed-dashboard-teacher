@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { Role } from "./types";
+import { PasswordGate } from "./PasswordGate";
 import { Sidebar } from "./components/layout/Sidebar";
 import { PmOverview } from "./components/pm/PmOverview";
 import { IntakeTimeline } from "./components/pm/IntakeTimeline";
@@ -8,12 +9,13 @@ import { ScenarioSim } from "./components/pm/ScenarioSim";
 import { Aug2026Sim } from "./components/pm/Aug2026Sim";
 import { IntakeManager } from "./components/pm/IntakeManager";
 import { TeacherDashboard } from "./components/teacher/TeacherDashboard";
+import { TeacherDashboard2026 } from "./components/teacher/TeacherDashboard2026";
 import { GradingDeadlines } from "./components/teacher/GradingDeadlines";
 import { CourseDirectory } from "./components/teacher/CourseDirectory";
 import { getPersistedTeacher, persistSelectedTeacher } from "./store";
 
 type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes" | "aug2026";
-type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist";
+type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "dashboard2026";
 
 const TEACHER_ONLY = import.meta.env.VITE_ROLE === "teacher";
 
@@ -29,6 +31,7 @@ function App() {
   }
 
   return (
+    <PasswordGate>
     <div className="flex h-screen bg-gray-50">
       <Sidebar
         role={role}
@@ -59,9 +62,13 @@ function App() {
           {role === "teacher" && teacherPage === "accesslist" && (
             <IntakeTimeline />
           )}
+          {role === "teacher" && teacherPage === "dashboard2026" && (
+            <TeacherDashboard2026 selectedTeacher={selectedTeacher} onTeacherChange={handleTeacherChange} />
+          )}
         </div>
       </main>
     </div>
+    </PasswordGate>
   );
 }
 
