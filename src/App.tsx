@@ -13,10 +13,11 @@ import { CourseDirectory } from "./components/teacher/CourseDirectory";
 import { CourseResponsibilitiesAug2026 } from "./components/teacher/CourseResponsibilitiesAug2026";
 import { AccessListAug2026 } from "./components/teacher/AccessListAug2026";
 import { GradingDeadlinesAug2026 } from "./components/teacher/GradingDeadlinesAug2026";
+import { TeacherDashboard2026 } from "./components/teacher/TeacherDashboard2026";
 import { getPersistedTeacher, persistSelectedTeacher } from "./store";
 
 type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes" | "aug2026";
-type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "aug2026courses" | "aug2026accesslist" | "aug2026grading";
+type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "aug2026courses" | "aug2026accesslist" | "aug2026grading" | "aug2026dashboard";
 
 const TEACHER_ONLY = import.meta.env.VITE_ROLE === "teacher";
 
@@ -70,6 +71,9 @@ function App() {
           )}
           {role === "teacher" && teacherPage === "aug2026grading" && (
             <GradingDeadlinesAug2026 />
+          )}
+          {role === "teacher" && teacherPage === "aug2026dashboard" && (
+            <TeacherDashboard2026 selectedTeacher={selectedTeacher} onTeacherChange={handleTeacherChange} />
           )}
         </div>
       </main>
