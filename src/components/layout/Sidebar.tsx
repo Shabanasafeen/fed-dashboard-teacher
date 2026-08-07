@@ -107,30 +107,6 @@ export function Sidebar({
         ) : (
           <ul className="space-y-1">
             <NavItem
-              label="My Dashboard"
-              icon="🏠"
-              active={teacherPage === "dashboard"}
-              onClick={() => onTeacherPageChange("dashboard")}
-            />
-            <NavItem
-              label="Grading Deadlines"
-              icon="📝"
-              active={teacherPage === "grading"}
-              onClick={() => onTeacherPageChange("grading")}
-            />
-            <NavItem
-              label="Course Responsibles"
-              icon="📚"
-              active={teacherPage === "courses"}
-              onClick={() => onTeacherPageChange("courses")}
-            />
-            <NavItem
-              label="Access List"
-              icon="📅"
-              active={teacherPage === "accesslist"}
-              onClick={() => onTeacherPageChange("accesslist")}
-            />
-            <NavItem
               label="My Dashboard Aug 2026"
               icon="🏠"
               active={teacherPage === "aug2026dashboard"}
