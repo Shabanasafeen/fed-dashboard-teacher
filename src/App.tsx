@@ -24,7 +24,7 @@ const TEACHER_ONLY = import.meta.env.VITE_ROLE === "teacher";
 function App() {
   const [role, setRole] = useState<Role>(TEACHER_ONLY ? "teacher" : "pm");
   const [pmPage, setPmPage] = useState<PmPage>("overview");
-  const [teacherPage, setTeacherPage] = useState<TeacherPage>("dashboard");
+  const [teacherPage, setTeacherPage] = useState<TeacherPage>("aug2026dashboard");
   const [selectedTeacher, setSelectedTeacher] = useState<string>(getPersistedTeacher);
 
   function handleTeacherChange(name: string) {
