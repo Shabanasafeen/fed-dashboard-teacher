@@ -270,7 +270,9 @@ function getWeekMonday(dateStr: string): string {
 export function getTeacherCurrentCourses(
   teacherName: string,
   referenceDate: string = new Date().toISOString().slice(0, 10),
-  courseOverrides?: Map<string, string>
+  courseOverrides?: Map<string, string>,
+  secondOverrides?: Map<string, string>,
+  thirdOverrides?: Map<string, string>
 ): {
   courseName: string;
   courseAbbrev: string;
@@ -302,13 +304,15 @@ export function getTeacherCurrentCourses(
     if (!activeAbbrevs.has(course.abbreviation)) continue;
 
     const responsible = courseOverrides?.get(course.abbreviation) ?? course.responsibleTeacher;
+    const second = secondOverrides?.get(course.abbreviation) ?? course.secondTeacher;
+    const third = thirdOverrides?.get(course.abbreviation) ?? course.thirdTeacher;
 
     let role: "responsible" | "2nd" | "3rd" | null = null;
     if (responsible?.toLowerCase() === teacherName.toLowerCase())
       role = "responsible";
-    else if (!courseOverrides && course.secondTeacher?.toLowerCase() === teacherName.toLowerCase())
+    else if (second?.toLowerCase() === teacherName.toLowerCase())
       role = "2nd";
-    else if (!courseOverrides && course.thirdTeacher?.toLowerCase() === teacherName.toLowerCase())
+    else if (third?.toLowerCase() === teacherName.toLowerCase())
       role = "3rd";
 
     if (role) {

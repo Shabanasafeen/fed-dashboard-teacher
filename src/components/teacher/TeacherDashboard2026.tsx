@@ -31,6 +31,51 @@ const AUG2026_RESPONSIBLE: Record<string, string> = {
 
 const AUG2026_OVERRIDES = new Map(Object.entries(AUG2026_RESPONSIBLE));
 
+const AUG2026_SECOND: Record<string, string> = {
+  INTRO: "Lasse Hægland",
+  DES:   "Lasse Hægland",
+  HTML:  "Monde",
+  PME:   "Monde",
+  SP1:   "Adrian D Souza",
+  JS1:   "Monde",
+  AGC1:  "Lasse Hægland",
+  PE1:   "Adrian D Souza",
+  POR1:  "Monde",
+  JS2:   "Adrian D Souza",
+  WFL:   "Lasse Hægland",
+  CSS:   "Adrian D Souza",
+  SP2:   "Monde",
+  DVP:   "Lasse Hægland",
+  JSF:   "Lasse Hægland",
+  AGC2:  "Adrian D Souza",
+  PE2:   "Monde",
+  POR2:  "Adrian D Souza",
+};
+
+const AUG2026_THIRD: Record<string, string> = {
+  INTRO: "Monde",
+  DES:   "Adrian D Souza",
+  HTML:  "Lasse Hægland",
+  PME:   "Adrian D Souza",
+  SP1:   "Monde",
+  JS1:   "Adrian D Souza",
+  AGC1:  "Monde",
+  PE1:   "Lasse Hægland",
+  POR1:  "Adrian D Souza",
+  JS2:   "Monde",
+  WFL:   "Adrian D Souza",
+  CSS:   "Lasse Hægland",
+  SP2:   "Lasse Hægland",
+  DVP:   "Adrian D Souza",
+  JSF:   "Monde",
+  AGC2:  "Lasse Hægland",
+  PE2:   "Lasse Hægland",
+  POR2:  "Monde",
+};
+
+const AUG2026_SECOND_MAP = new Map(Object.entries(AUG2026_SECOND));
+const AUG2026_THIRD_MAP = new Map(Object.entries(AUG2026_THIRD));
+
 interface Props {
   selectedTeacher: string;
   onTeacherChange: (name: string) => void;
@@ -44,7 +89,7 @@ export function TeacherDashboard2026({ selectedTeacher, onTeacherChange }: Props
     .slice(0, 10);
 
   const currentCourses = useMemo(
-    () => getTeacherCurrentCourses(selectedTeacher, today, AUG2026_OVERRIDES),
+    () => getTeacherCurrentCourses(selectedTeacher, today, AUG2026_OVERRIDES, AUG2026_SECOND_MAP, AUG2026_THIRD_MAP),
     [selectedTeacher, today]
   );
 
@@ -181,6 +226,7 @@ export function TeacherDashboard2026({ selectedTeacher, onTeacherChange }: Props
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {group.map((cc) => {
                       const course = courses.find((c) => c.abbreviation === cc.courseAbbrev);
+                      const responsible = AUG2026_RESPONSIBLE[cc.courseAbbrev] || course?.responsibleTeacher;
                       return (
                         <div key={cc.courseAbbrev} className={`bg-white rounded-xl shadow-sm border ${cardBorder} p-5`}>
                           <h4 className="font-semibold text-gray-900 mb-2">{cc.courseName}</h4>
@@ -193,7 +239,7 @@ export function TeacherDashboard2026({ selectedTeacher, onTeacherChange }: Props
                               <>
                                 <p>
                                   <span className="text-gray-400">Responsible:</span>{" "}
-                                  {course.responsibleTeacher || "—"}
+                                  {responsible || "—"}
                                 </p>
                                 <p>
                                   <span className="text-gray-400">Credits:</span>{" "}
