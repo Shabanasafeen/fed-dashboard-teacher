@@ -166,7 +166,7 @@ function buildSnapshot(intakeId: string, today: string): IntakeSnapshot {
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export function AccessListAug2026() {
-  const [useSimDate, setUseSimDate] = useState(true);
+  const [useSimDate, setUseSimDate] = useState(false);
   const [filterType, setFilterType] = useState<"all" | "FT" | "PT">("all");
   const [filterTeacher, setFilterTeacher] = useState<string>("all");
   const [expandedId, setExpandedId] = useState<string | null>(null);
