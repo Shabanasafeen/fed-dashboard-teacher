@@ -98,6 +98,50 @@ export function TeacherDashboard2026({ selectedTeacher, onTeacherChange }: Props
     [selectedTeacher, today]
   );
 
+  // Course order as they appear in the programme
+  const COURSE_ORDER = ["INTRO","DES","HTML","PME","SP1","JS1","AGC1","PE1","POR1","JS2","WFL","CSS","SP2","DVP","JSF","AGC2","PE2","POR2"];
+
+  const courseScheduleOverview = useMemo(() => {
+    const seen = new Set<string>();
+    const result: {
+      courseAbbrev: string;
+      courseName: string;
+      role: "responsible" | "2nd" | "3rd";
+      currentIntakes: string[];
+      nextStarts: { intakeId: string; date: string }[];
+    }[] = [];
+
+    for (const abbrev of COURSE_ORDER) {
+      if (seen.has(abbrev)) continue;
+      const responsible = AUG2026_RESPONSIBLE[abbrev];
+      const second = AUG2026_SECOND[abbrev];
+      const third = AUG2026_THIRD[abbrev];
+
+      let role: "responsible" | "2nd" | "3rd" | null = null;
+      if (responsible?.toLowerCase() === selectedTeacher.toLowerCase()) role = "responsible";
+      else if (second?.toLowerCase() === selectedTeacher.toLowerCase()) role = "2nd";
+      else if (third?.toLowerCase() === selectedTeacher.toLowerCase()) role = "3rd";
+      if (!role) continue;
+
+      seen.add(abbrev);
+      const course = courses.find((c) => c.abbreviation === abbrev);
+      const courseName = course?.name ?? abbrev;
+
+      const currentIntakes = currentCourses.find((cc) => cc.courseAbbrev === abbrev)?.intakes ?? [];
+
+      const upcoming: { intakeId: string; date: string }[] = [];
+      for (const entry of schedule) {
+        if (entry.courseAbbrev === abbrev && entry.isCourseStart && entry.weekDate > today) {
+          upcoming.push({ intakeId: entry.intake, date: entry.weekDate });
+        }
+      }
+      upcoming.sort((a, b) => a.date.localeCompare(b.date));
+
+      result.push({ courseAbbrev: abbrev, courseName, role, currentIntakes, nextStarts: upcoming });
+    }
+    return result;
+  }, [selectedTeacher, currentCourses, today]);
+
   function getCourseWeek(intakeId: string, courseAbbrev: string) {
     const entries = schedule
       .filter((e) => e.intake === intakeId && e.courseAbbrev === courseAbbrev)
@@ -295,6 +339,74 @@ export function TeacherDashboard2026({ selectedTeacher, onTeacherChange }: Props
                 </span>
               </div>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* Course schedule overview */}
+      {courseScheduleOverview.length > 0 && (
+        <div className="mb-6">
+          <h3 className="font-semibold text-gray-900 mb-3">Course Schedule Overview</h3>
+          <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-gray-50 border-b border-gray-200">
+                  <th className="text-left px-4 py-2.5 font-medium text-gray-600 w-8">#</th>
+                  <th className="text-left px-4 py-2.5 font-medium text-gray-600">Course</th>
+                  <th className="text-left px-4 py-2.5 font-medium text-gray-600">Role</th>
+                  <th className="text-left px-4 py-2.5 font-medium text-gray-600">Status</th>
+                  <th className="text-left px-4 py-2.5 font-medium text-gray-600">Next Start</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {courseScheduleOverview.map((item, i) => {
+                  const roleBadge =
+                    item.role === "responsible"
+                      ? "bg-indigo-100 text-indigo-700"
+                      : item.role === "2nd"
+                      ? "bg-yellow-100 text-yellow-700"
+                      : "bg-pink-100 text-pink-700";
+                  const roleLabel =
+                    item.role === "responsible" ? "Resp." : item.role === "2nd" ? "2nd" : "3rd";
+                  const isRunning = item.currentIntakes.length > 0;
+                  const next = item.nextStarts[0];
+                  return (
+                    <tr key={item.courseAbbrev} className={i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}>
+                      <td className="px-4 py-2.5 text-gray-400 text-xs">{i + 1}</td>
+                      <td className="px-4 py-2.5">
+                        <span className="font-medium text-gray-900">{item.courseName}</span>
+                        <span className="ml-2 text-xs text-gray-400">{item.courseAbbrev}</span>
+                      </td>
+                      <td className="px-4 py-2.5">
+                        <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${roleBadge}`}>
+                          {roleLabel}
+                        </span>
+                      </td>
+                      <td className="px-4 py-2.5">
+                        {isRunning ? (
+                          <span className="inline-flex items-center gap-1.5 text-green-700 text-xs font-medium">
+                            <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+                            Running — {item.currentIntakes.join(", ")}
+                          </span>
+                        ) : (
+                          <span className="text-gray-400 text-xs">Not running</span>
+                        )}
+                      </td>
+                      <td className="px-4 py-2.5">
+                        {next ? (
+                          <span className="text-gray-700 text-xs">
+                            <span className="font-medium">{format(parseISO(next.date), "MMM d, yyyy")}</span>
+                            <span className="text-gray-400 ml-1">({next.intakeId})</span>
+                          </span>
+                        ) : (
+                          <span className="text-gray-300 text-xs">—</span>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
         </div>
       )}
