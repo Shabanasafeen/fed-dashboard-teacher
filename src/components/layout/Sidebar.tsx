@@ -1,7 +1,7 @@
 import type { Role } from "../../types";
 
 type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes" | "aug2026";
-type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "aug2026courses" | "aug2026accesslist" | "aug2026grading" | "aug2026dashboard";
+type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "aug2026courses" | "aug2026accesslist" | "aug2026grading" | "aug2026dashboard" | "aug2026schedule";
 
 interface SidebarProps {
   role: Role;
@@ -129,6 +129,12 @@ export function Sidebar({
               icon="📝"
               active={teacherPage === "aug2026grading"}
               onClick={() => onTeacherPageChange("aug2026grading")}
+            />
+            <NavItem
+              label="Course Schedule Aug 2026"
+              icon="🗓️"
+              active={teacherPage === "aug2026schedule"}
+              onClick={() => onTeacherPageChange("aug2026schedule")}
             />
           </ul>
         )}

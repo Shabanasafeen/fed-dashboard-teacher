@@ -14,10 +14,11 @@ import { CourseResponsibilitiesAug2026 } from "./components/teacher/CourseRespon
 import { AccessListAug2026 } from "./components/teacher/AccessListAug2026";
 import { GradingDeadlinesAug2026 } from "./components/teacher/GradingDeadlinesAug2026";
 import { TeacherDashboard2026 } from "./components/teacher/TeacherDashboard2026";
+import { CourseScheduleAug2026 } from "./components/teacher/CourseScheduleAug2026";
 import { getPersistedTeacher, persistSelectedTeacher } from "./store";
 
 type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes" | "aug2026";
-type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "aug2026courses" | "aug2026accesslist" | "aug2026grading" | "aug2026dashboard";
+type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "aug2026courses" | "aug2026accesslist" | "aug2026grading" | "aug2026dashboard" | "aug2026schedule";
 
 const TEACHER_ONLY = import.meta.env.VITE_ROLE === "teacher";
 
@@ -74,6 +75,9 @@ function App() {
           )}
           {role === "teacher" && teacherPage === "aug2026dashboard" && (
             <TeacherDashboard2026 selectedTeacher={selectedTeacher} onTeacherChange={handleTeacherChange} />
+          )}
+          {role === "teacher" && teacherPage === "aug2026schedule" && (
+            <CourseScheduleAug2026 selectedTeacher={selectedTeacher} onTeacherChange={handleTeacherChange} />
           )}
         </div>
       </main>
