@@ -245,11 +245,11 @@ export function TeacherDashboard2026({ selectedTeacher, onTeacherChange }: Props
                           </div>
 
                           <div className="text-xs text-gray-500 space-y-0.5">
-                            {item.course?.secondTeacher && (
-                              <p><span className="text-gray-400">2nd:</span> {item.course.secondTeacher}</p>
+                            {AUG2026_SECOND[item.courseAbbrev] && (
+                              <p><span className="text-gray-400">2nd:</span> {AUG2026_SECOND[item.courseAbbrev]}</p>
                             )}
-                            {item.course?.thirdTeacher && (
-                              <p><span className="text-gray-400">3rd:</span> {item.course.thirdTeacher}</p>
+                            {AUG2026_THIRD[item.courseAbbrev] && (
+                              <p><span className="text-gray-400">3rd:</span> {AUG2026_THIRD[item.courseAbbrev]}</p>
                             )}
                           </div>
                         </div>
