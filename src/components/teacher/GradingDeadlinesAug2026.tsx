@@ -88,7 +88,7 @@ function getAssignments(teacherName: string, referenceDate: string) {
 }
 
 export function GradingDeadlinesAug2026() {
-  const [useSimDate, setUseSimDate] = useState(true);
+  const [useSimDate, setUseSimDate] = useState(false);
   const [selectedTeacher, setSelectedTeacher] = useState(AUG2026_TEACHERS[0]);
   const [showUpcoming, setShowUpcoming] = useState(false);
 
