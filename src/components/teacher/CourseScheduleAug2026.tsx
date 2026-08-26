@@ -237,16 +237,6 @@ export function CourseScheduleAug2026({ selectedTeacher, onTeacherChange }: Prop
                 { semester: "Semester 4", course: "PE2", start: "2028-04-10", end: "2028-05-15" },
               ],
             },
-            {
-              intake: "AUG26PT",
-              label: "Part Time",
-              windows: [
-                { semester: "Semester 1", course: "SP1", start: "2027-03-08", end: "2027-05-03" },
-                { semester: "Semester 2", course: "PE1", start: "2028-02-07", end: "2028-05-01" },
-                { semester: "Semester 3", course: "SP2", start: "2029-02-26", end: "2029-05-07" },
-                { semester: "Semester 4", course: "PE2", start: "2030-02-11", end: "2030-04-29" },
-              ],
-            },
           ].map(({ intake, label, windows }) => (
             <div key={intake} className="bg-white rounded-xl border border-gray-200 overflow-hidden">
               <div className="px-4 py-3 bg-gray-50 border-b border-gray-200 flex items-center gap-2">
