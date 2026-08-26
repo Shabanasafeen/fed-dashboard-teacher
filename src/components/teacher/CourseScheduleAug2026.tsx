@@ -215,6 +215,77 @@ export function CourseScheduleAug2026({ selectedTeacher, onTeacherChange }: Prop
           </tbody>
         </table>
       </div>
+
+      {/* Evaluation Review Windows */}
+      <div className="mt-8">
+        <div className="mb-3">
+          <h3 className="font-semibold text-gray-900">Course Evaluation Review Windows</h3>
+          <p className="text-sm text-gray-500 mt-0.5">
+            Evaluation meetings held once per semester during project periods — August 2026 intakes only
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {[
+            {
+              intake: "AUG26FT",
+              label: "Full Time",
+              windows: [
+                { semester: "Semester 1", course: "SP1", start: "2026-11-16", end: "2026-12-07" },
+                { semester: "Semester 2", course: "PE1", start: "2027-04-12", end: "2027-05-17" },
+                { semester: "Semester 3", course: "SP2", start: "2027-11-08", end: "2027-12-06" },
+                { semester: "Semester 4", course: "PE2", start: "2028-04-10", end: "2028-05-15" },
+              ],
+            },
+            {
+              intake: "AUG26PT",
+              label: "Part Time",
+              windows: [
+                { semester: "Semester 1", course: "SP1", start: "2027-03-08", end: "2027-05-03" },
+                { semester: "Semester 2", course: "PE1", start: "2028-02-07", end: "2028-05-01" },
+                { semester: "Semester 3", course: "SP2", start: "2029-02-26", end: "2029-05-07" },
+                { semester: "Semester 4", course: "PE2", start: "2030-02-11", end: "2030-04-29" },
+              ],
+            },
+          ].map(({ intake, label, windows }) => (
+            <div key={intake} className="bg-white rounded-xl border border-gray-200 overflow-hidden">
+              <div className="px-4 py-3 bg-gray-50 border-b border-gray-200 flex items-center gap-2">
+                <span className="font-semibold text-gray-800 text-sm">{intake}</span>
+                <span className="text-xs text-gray-500">{label}</span>
+              </div>
+              <div className="divide-y divide-gray-100">
+                {windows.map(({ semester, course, start, end }) => {
+                  const today = new Date().toISOString().slice(0, 10);
+                  const isActive = today >= start && today <= end;
+                  const isPast = today > end;
+                  const statusBadge = isActive
+                    ? "bg-green-100 text-green-700"
+                    : isPast
+                    ? "bg-gray-100 text-gray-400"
+                    : "bg-blue-50 text-blue-600";
+                  const statusLabel = isActive ? "Now" : isPast ? "Done" : "Upcoming";
+                  return (
+                    <div key={semester} className="px-4 py-3 flex items-center justify-between">
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm font-medium text-gray-800">{semester}</span>
+                          <span className="text-xs text-gray-400">during {course}</span>
+                        </div>
+                        <div className="text-xs text-gray-500 mt-0.5">
+                          {format(parseISO(start), "d MMM yyyy")} — {format(parseISO(end), "d MMM yyyy")}
+                        </div>
+                      </div>
+                      <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${statusBadge}`}>
+                        {statusLabel}
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
