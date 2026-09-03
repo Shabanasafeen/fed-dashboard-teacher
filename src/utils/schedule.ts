@@ -399,6 +399,14 @@ export function getNextCourseStart(
     }
   }
 
+  // Exclude intake+course pairs that have already started
+  const alreadyStarted = new Set<string>();
+  for (const entry of schedule) {
+    if (entry.weekDate <= referenceDate && teacherCourseAbbrevs.has(entry.courseAbbrev)) {
+      alreadyStarted.add(`${entry.intake}::${entry.courseAbbrev}`);
+    }
+  }
+
   let earliest: {
     courseName: string;
     startDate: string;
@@ -409,7 +417,8 @@ export function getNextCourseStart(
     if (
       entry.isCourseStart &&
       entry.weekDate > referenceDate &&
-      teacherCourseAbbrevs.has(entry.courseAbbrev)
+      teacherCourseAbbrevs.has(entry.courseAbbrev) &&
+      !alreadyStarted.has(`${entry.intake}::${entry.courseAbbrev}`)
     ) {
       if (!earliest || entry.weekDate < earliest.startDate) {
         earliest = {
@@ -436,7 +445,15 @@ export function getNextCourseStarts(
     }
   }
 
-  // Deduplicate by intake+course, keeping the earliest start date
+  // Exclude intake+course pairs that have already started (any entry on or before today)
+  const alreadyStarted = new Set<string>();
+  for (const entry of schedule) {
+    if (entry.weekDate <= referenceDate && teacherCourseAbbrevs.has(entry.courseAbbrev)) {
+      alreadyStarted.add(`${entry.intake}::${entry.courseAbbrev}`);
+    }
+  }
+
+  // Deduplicate by intake+course, keeping the earliest future start date
   const earliest = new Map<string, { courseName: string; startDate: string; intake: string }>();
 
   for (const entry of schedule) {
@@ -446,6 +463,7 @@ export function getNextCourseStarts(
       teacherCourseAbbrevs.has(entry.courseAbbrev)
     ) {
       const key = `${entry.intake}::${entry.courseAbbrev}`;
+      if (alreadyStarted.has(key)) continue;
       const existing = earliest.get(key);
       if (!existing || entry.weekDate < existing.startDate) {
         earliest.set(key, {
