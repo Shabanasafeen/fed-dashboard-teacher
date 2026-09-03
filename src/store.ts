@@ -107,11 +107,14 @@ export function isCustomIntake(intakeId: string): boolean {
 }
 
 /** Read the persisted teacher name, falling back to the first teacher. */
+const AUG2026_TEACHERS = ["Monde", "Lasse Hægland", "Adrian D Souza"];
+
 export function getPersistedTeacher(): string {
   try {
-    return localStorage.getItem(KEY_SELECTED_TEACHER) || teachers[0]?.name || "";
+    const saved = localStorage.getItem(KEY_SELECTED_TEACHER) || "";
+    return AUG2026_TEACHERS.includes(saved) ? saved : AUG2026_TEACHERS[0];
   } catch {
-    return teachers[0]?.name || "";
+    return AUG2026_TEACHERS[0];
   }
 }
 

@@ -1,7 +1,7 @@
 import type { Role } from "../../types";
 
 type PmPage = "overview" | "timeline" | "workload" | "scenario" | "intakes" | "aug2026";
-type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "dashboard2026";
+type TeacherPage = "dashboard" | "grading" | "courses" | "accesslist" | "aug2026courses" | "aug2026accesslist" | "aug2026grading" | "aug2026dashboard" | "aug2026schedule";
 
 interface SidebarProps {
   role: Role;
@@ -107,37 +107,34 @@ export function Sidebar({
         ) : (
           <ul className="space-y-1">
             <NavItem
-              label="My Dashboard"
-              icon="🏠"
-              active={teacherPage === "dashboard"}
-              onClick={() => onTeacherPageChange("dashboard")}
-            />
-            <NavItem
-              label="Grading Deadlines"
-              icon="📝"
-              active={teacherPage === "grading"}
-              onClick={() => onTeacherPageChange("grading")}
-            />
-            <NavItem
-              label="Course Responsibles"
-              icon="📚"
-              active={teacherPage === "courses"}
-              onClick={() => onTeacherPageChange("courses")}
-            />
-            <NavItem
-              label="Access List"
-              icon="📅"
-              active={teacherPage === "accesslist"}
-              onClick={() => onTeacherPageChange("accesslist")}
-            />
-            <li className="pt-2">
-              <p className="text-xs text-slate-500 uppercase tracking-wider px-2 pb-1">Aug 2026</p>
-            </li>
-            <NavItem
               label="My Dashboard Aug 2026"
               icon="🏠"
-              active={teacherPage === "dashboard2026"}
-              onClick={() => onTeacherPageChange("dashboard2026")}
+              active={teacherPage === "aug2026dashboard"}
+              onClick={() => onTeacherPageChange("aug2026dashboard")}
+            />
+            <NavItem
+              label="Course Resp. Aug 2026"
+              icon="📋"
+              active={teacherPage === "aug2026courses"}
+              onClick={() => onTeacherPageChange("aug2026courses")}
+            />
+            <NavItem
+              label="Access List Aug 2026"
+              icon="📅"
+              active={teacherPage === "aug2026accesslist"}
+              onClick={() => onTeacherPageChange("aug2026accesslist")}
+            />
+            <NavItem
+              label="Grading Deadlines Aug 2026"
+              icon="📝"
+              active={teacherPage === "aug2026grading"}
+              onClick={() => onTeacherPageChange("aug2026grading")}
+            />
+            <NavItem
+              label="Course Schedule Aug 2026"
+              icon="🗓️"
+              active={teacherPage === "aug2026schedule"}
+              onClick={() => onTeacherPageChange("aug2026schedule")}
             />
           </ul>
         )}

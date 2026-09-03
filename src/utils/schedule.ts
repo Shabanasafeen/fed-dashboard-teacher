@@ -269,7 +269,10 @@ function getWeekMonday(dateStr: string): string {
 
 export function getTeacherCurrentCourses(
   teacherName: string,
-  referenceDate: string = new Date().toISOString().slice(0, 10)
+  referenceDate: string = new Date().toISOString().slice(0, 10),
+  courseOverrides?: Map<string, string>,
+  secondOverrides?: Map<string, string>,
+  thirdOverrides?: Map<string, string>
 ): {
   courseName: string;
   courseAbbrev: string;
@@ -300,14 +303,16 @@ export function getTeacherCurrentCourses(
   for (const course of courses) {
     if (!activeAbbrevs.has(course.abbreviation)) continue;
 
+    const responsible = courseOverrides?.get(course.abbreviation) ?? course.responsibleTeacher;
+    const second = secondOverrides?.get(course.abbreviation) ?? course.secondTeacher;
+    const third = thirdOverrides?.get(course.abbreviation) ?? course.thirdTeacher;
+
     let role: "responsible" | "2nd" | "3rd" | null = null;
-    if (
-      course.responsibleTeacher?.toLowerCase() === teacherName.toLowerCase()
-    )
+    if (responsible?.toLowerCase() === teacherName.toLowerCase())
       role = "responsible";
-    else if (course.secondTeacher?.toLowerCase() === teacherName.toLowerCase())
+    else if (second?.toLowerCase() === teacherName.toLowerCase())
       role = "2nd";
-    else if (course.thirdTeacher?.toLowerCase() === teacherName.toLowerCase())
+    else if (third?.toLowerCase() === teacherName.toLowerCase())
       role = "3rd";
 
     if (role) {
@@ -436,11 +441,13 @@ export function getNextCourseStart(
 export function getNextCourseStarts(
   teacherName: string,
   count: number = 3,
-  referenceDate: string = new Date().toISOString().slice(0, 10)
+  referenceDate: string = new Date().toISOString().slice(0, 10),
+  courseOverrides?: Map<string, string>
 ): { courseName: string; startDate: string; intake: string }[] {
   const teacherCourseAbbrevs = new Set<string>();
   for (const course of courses) {
-    if (course.responsibleTeacher?.toLowerCase() === teacherName.toLowerCase()) {
+    const responsible = courseOverrides?.get(course.abbreviation) ?? course.responsibleTeacher;
+    if (responsible?.toLowerCase() === teacherName.toLowerCase()) {
       teacherCourseAbbrevs.add(course.abbreviation);
     }
   }
