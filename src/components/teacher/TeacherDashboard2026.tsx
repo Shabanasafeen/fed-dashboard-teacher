@@ -102,8 +102,35 @@ export function TeacherDashboard2026({ selectedTeacher, onTeacherChange }: Props
     const entries = schedule
       .filter((e) => e.intake === intakeId && e.courseAbbrev === courseAbbrev)
       .sort((a, b) => a.weekDate.localeCompare(b.weekDate));
-    const totalWeeks = entries.length;
-    const currentWeek = entries.filter((e) => e.weekDate <= today).length;
+
+    if (entries.length === 0) return { currentWeek: 0, totalWeeks: 0 };
+
+    // Group into contiguous blocks (gap > 21 days = new block)
+    const blocks: typeof entries[] = [];
+    let block: typeof entries = [entries[0]];
+    for (let i = 1; i < entries.length; i++) {
+      const prev = new Date(entries[i - 1].weekDate + "T12:00:00Z");
+      const curr = new Date(entries[i].weekDate + "T12:00:00Z");
+      if ((curr.getTime() - prev.getTime()) / 86400000 > 21) {
+        blocks.push(block);
+        block = [entries[i]];
+      } else {
+        block.push(entries[i]);
+      }
+    }
+    blocks.push(block);
+
+    // Find the active block: one spanning today, or the most recent past block
+    let activeBlock = blocks[0];
+    for (const b of blocks) {
+      const start = b[0].weekDate;
+      const end = b[b.length - 1].weekDate;
+      if (start <= today && end >= today) { activeBlock = b; break; }
+      if (start <= today) activeBlock = b;
+    }
+
+    const totalWeeks = activeBlock.length;
+    const currentWeek = activeBlock.filter((e) => e.weekDate <= today).length;
     return { currentWeek, totalWeeks };
   }
 
