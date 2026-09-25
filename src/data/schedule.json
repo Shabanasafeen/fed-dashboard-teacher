@@ -27563,22 +27563,13 @@
     "calendarWeek": "Week 41",
     "courseAbbrev": "POR1",
     "courseWeekNumber": 39,
-    "isAssignmentWeek": false,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
     "intake": "OCT24PT",
     "weekDate": "2026-10-12",
     "calendarWeek": "Week 42",
-    "courseAbbrev": "POR1",
-    "courseWeekNumber": 39,
-    "isAssignmentWeek": true,
-    "isCourseStart": false
-  },
-  {
-    "intake": "OCT24PT",
-    "weekDate": "2026-10-19",
-    "calendarWeek": "Week 43",
     "courseAbbrev": "POR1",
     "courseWeekNumber": 39,
     "isAssignmentWeek": true,
