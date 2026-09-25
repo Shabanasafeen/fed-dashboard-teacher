@@ -27586,10 +27586,19 @@
   },
   {
     "intake": "OCT24PT",
-    "weekDate": "2026-10-26",
-    "calendarWeek": "Week 44",
+    "weekDate": "2026-10-19",
+    "calendarWeek": "Week 43",
     "courseAbbrev": "INTRO",
     "courseWeekNumber": 0,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT24PT",
+    "weekDate": "2026-10-26",
+    "calendarWeek": "Week 44",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 1,
     "isAssignmentWeek": false,
     "isCourseStart": true
   },
@@ -27607,9 +27616,9 @@
     "weekDate": "2026-11-09",
     "calendarWeek": "Week 46",
     "courseAbbrev": "JS2",
-    "courseWeekNumber": 1,
+    "courseWeekNumber": 2,
     "isAssignmentWeek": false,
-    "isCourseStart": true
+    "isCourseStart": false
   },
   {
     "intake": "OCT24PT",
@@ -27625,7 +27634,7 @@
     "weekDate": "2026-11-23",
     "calendarWeek": "Week 48",
     "courseAbbrev": "JS2",
-    "courseWeekNumber": 2,
+    "courseWeekNumber": 3,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -27643,7 +27652,7 @@
     "weekDate": "2026-12-07",
     "calendarWeek": "Week 50",
     "courseAbbrev": "JS2",
-    "courseWeekNumber": 3,
+    "courseWeekNumber": 4,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -27658,10 +27667,10 @@
   },
   {
     "intake": "OCT24PT",
-    "weekDate": "2026-12-21",
-    "calendarWeek": "Week 52",
+    "weekDate": "2027-01-04",
+    "calendarWeek": "Week 1",
     "courseAbbrev": "JS2",
-    "courseWeekNumber": 4,
+    "courseWeekNumber": 5,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -27679,8 +27688,8 @@
     "weekDate": "2027-01-18",
     "calendarWeek": "Week 3",
     "courseAbbrev": "JS2",
-    "courseWeekNumber": 5,
-    "isAssignmentWeek": false,
+    "courseWeekNumber": 6,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -27696,10 +27705,10 @@
     "intake": "OCT24PT",
     "weekDate": "2027-02-01",
     "calendarWeek": "Week 5",
-    "courseAbbrev": "JS2",
-    "courseWeekNumber": 6,
-    "isAssignmentWeek": true,
-    "isCourseStart": false
+    "courseAbbrev": "WFL",
+    "courseWeekNumber": 7,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
   },
   {
     "intake": "OCT24PT",
@@ -27715,9 +27724,9 @@
     "weekDate": "2027-02-15",
     "calendarWeek": "Week 7",
     "courseAbbrev": "WFL",
-    "courseWeekNumber": 7,
+    "courseWeekNumber": 8,
     "isAssignmentWeek": false,
-    "isCourseStart": true
+    "isCourseStart": false
   },
   {
     "intake": "OCT24PT",
@@ -27733,8 +27742,8 @@
     "weekDate": "2027-03-01",
     "calendarWeek": "Week 9",
     "courseAbbrev": "WFL",
-    "courseWeekNumber": 8,
-    "isAssignmentWeek": false,
+    "courseWeekNumber": 9,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -27750,15 +27759,15 @@
     "intake": "OCT24PT",
     "weekDate": "2027-03-15",
     "calendarWeek": "Week 11",
-    "courseAbbrev": "WFL",
-    "courseWeekNumber": 9,
-    "isAssignmentWeek": true,
-    "isCourseStart": false
+    "courseAbbrev": "CSS",
+    "courseWeekNumber": 10,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
   },
   {
     "intake": "OCT24PT",
-    "weekDate": "2027-03-22",
-    "calendarWeek": "Week 12",
+    "weekDate": "2027-03-29",
+    "calendarWeek": "Week 13",
     "courseAbbrev": "CSS",
     "courseWeekNumber": 10,
     "isAssignmentWeek": false,
@@ -27769,9 +27778,9 @@
     "weekDate": "2027-04-05",
     "calendarWeek": "Week 14",
     "courseAbbrev": "CSS",
-    "courseWeekNumber": 10,
+    "courseWeekNumber": 11,
     "isAssignmentWeek": false,
-    "isCourseStart": true
+    "isCourseStart": false
   },
   {
     "intake": "OCT24PT",
@@ -27787,8 +27796,8 @@
     "weekDate": "2027-04-19",
     "calendarWeek": "Week 16",
     "courseAbbrev": "CSS",
-    "courseWeekNumber": 11,
-    "isAssignmentWeek": false,
+    "courseWeekNumber": 12,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -27804,10 +27813,10 @@
     "intake": "OCT24PT",
     "weekDate": "2027-05-03",
     "calendarWeek": "Week 18",
-    "courseAbbrev": "CSS",
-    "courseWeekNumber": 12,
-    "isAssignmentWeek": true,
-    "isCourseStart": false
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 13,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
   },
   {
     "intake": "OCT24PT",
@@ -27823,9 +27832,9 @@
     "weekDate": "2027-05-17",
     "calendarWeek": "Week 20",
     "courseAbbrev": "SP2",
-    "courseWeekNumber": 13,
+    "courseWeekNumber": 14,
     "isAssignmentWeek": false,
-    "isCourseStart": true
+    "isCourseStart": false
   },
   {
     "intake": "OCT24PT",
@@ -27841,7 +27850,7 @@
     "weekDate": "2027-05-31",
     "calendarWeek": "Week 22",
     "courseAbbrev": "SP2",
-    "courseWeekNumber": 14,
+    "courseWeekNumber": 15,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -27856,10 +27865,10 @@
   },
   {
     "intake": "OCT24PT",
-    "weekDate": "2027-06-14",
-    "calendarWeek": "Week 24",
+    "weekDate": "2027-08-16",
+    "calendarWeek": "Week 33",
     "courseAbbrev": "SP2",
-    "courseWeekNumber": 15,
+    "courseWeekNumber": 16,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -27877,8 +27886,8 @@
     "weekDate": "2027-08-30",
     "calendarWeek": "Week 35",
     "courseAbbrev": "SP2",
-    "courseWeekNumber": 16,
-    "isAssignmentWeek": false,
+    "courseWeekNumber": 17,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -27894,10 +27903,10 @@
     "intake": "OCT24PT",
     "weekDate": "2027-09-13",
     "calendarWeek": "Week 37",
-    "courseAbbrev": "SP2",
-    "courseWeekNumber": 17,
-    "isAssignmentWeek": true,
-    "isCourseStart": false
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 18,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
   },
   {
     "intake": "OCT24PT",
@@ -27913,9 +27922,9 @@
     "weekDate": "2027-09-27",
     "calendarWeek": "Week 39",
     "courseAbbrev": "DVP",
-    "courseWeekNumber": 18,
+    "courseWeekNumber": 19,
     "isAssignmentWeek": false,
-    "isCourseStart": true
+    "isCourseStart": false
   },
   {
     "intake": "OCT24PT",
@@ -27931,7 +27940,7 @@
     "weekDate": "2027-10-11",
     "calendarWeek": "Week 41",
     "courseAbbrev": "DVP",
-    "courseWeekNumber": 19,
+    "courseWeekNumber": 20,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -27949,8 +27958,8 @@
     "weekDate": "2027-10-25",
     "calendarWeek": "Week 43",
     "courseAbbrev": "DVP",
-    "courseWeekNumber": 20,
-    "isAssignmentWeek": false,
+    "courseWeekNumber": 21,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -27966,10 +27975,10 @@
     "intake": "OCT24PT",
     "weekDate": "2027-11-08",
     "calendarWeek": "Week 45",
-    "courseAbbrev": "DVP",
-    "courseWeekNumber": 21,
-    "isAssignmentWeek": true,
-    "isCourseStart": false
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 22,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
   },
   {
     "intake": "OCT24PT",
@@ -27985,9 +27994,9 @@
     "weekDate": "2027-11-22",
     "calendarWeek": "Week 47",
     "courseAbbrev": "JSF",
-    "courseWeekNumber": 22,
+    "courseWeekNumber": 23,
     "isAssignmentWeek": false,
-    "isCourseStart": true
+    "isCourseStart": false
   },
   {
     "intake": "OCT24PT",
@@ -28003,7 +28012,7 @@
     "weekDate": "2027-12-06",
     "calendarWeek": "Week 49",
     "courseAbbrev": "JSF",
-    "courseWeekNumber": 23,
+    "courseWeekNumber": 24,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -28018,10 +28027,10 @@
   },
   {
     "intake": "OCT24PT",
-    "weekDate": "2027-12-20",
-    "calendarWeek": "Week 51",
+    "weekDate": "2028-01-03",
+    "calendarWeek": "Week 1",
     "courseAbbrev": "JSF",
-    "courseWeekNumber": 24,
+    "courseWeekNumber": 25,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -28039,7 +28048,7 @@
     "weekDate": "2028-01-17",
     "calendarWeek": "Week 3",
     "courseAbbrev": "JSF",
-    "courseWeekNumber": 25,
+    "courseWeekNumber": 26,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -28057,8 +28066,8 @@
     "weekDate": "2028-01-31",
     "calendarWeek": "Week 5",
     "courseAbbrev": "JSF",
-    "courseWeekNumber": 26,
-    "isAssignmentWeek": false,
+    "courseWeekNumber": 27,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -28074,10 +28083,10 @@
     "intake": "OCT24PT",
     "weekDate": "2028-02-14",
     "calendarWeek": "Week 7",
-    "courseAbbrev": "JSF",
-    "courseWeekNumber": 27,
-    "isAssignmentWeek": true,
-    "isCourseStart": false
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 28,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
   },
   {
     "intake": "OCT24PT",
@@ -28093,9 +28102,9 @@
     "weekDate": "2028-02-28",
     "calendarWeek": "Week 9",
     "courseAbbrev": "AGC2",
-    "courseWeekNumber": 28,
+    "courseWeekNumber": 29,
     "isAssignmentWeek": false,
-    "isCourseStart": true
+    "isCourseStart": false
   },
   {
     "intake": "OCT24PT",
@@ -28111,7 +28120,7 @@
     "weekDate": "2028-03-13",
     "calendarWeek": "Week 11",
     "courseAbbrev": "AGC2",
-    "courseWeekNumber": 29,
+    "courseWeekNumber": 30,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -28129,8 +28138,8 @@
     "weekDate": "2028-03-27",
     "calendarWeek": "Week 13",
     "courseAbbrev": "AGC2",
-    "courseWeekNumber": 30,
-    "isAssignmentWeek": false,
+    "courseWeekNumber": 31,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -28144,12 +28153,12 @@
   },
   {
     "intake": "OCT24PT",
-    "weekDate": "2028-04-10",
-    "calendarWeek": "Week 15",
-    "courseAbbrev": "AGC2",
-    "courseWeekNumber": 31,
-    "isAssignmentWeek": true,
-    "isCourseStart": false
+    "weekDate": "2028-04-17",
+    "calendarWeek": "Week 16",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 32,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
   },
   {
     "intake": "OCT24PT",
@@ -28165,9 +28174,9 @@
     "weekDate": "2028-05-01",
     "calendarWeek": "Week 18",
     "courseAbbrev": "PE2",
-    "courseWeekNumber": 32,
+    "courseWeekNumber": 33,
     "isAssignmentWeek": false,
-    "isCourseStart": true
+    "isCourseStart": false
   },
   {
     "intake": "OCT24PT",
@@ -28183,7 +28192,7 @@
     "weekDate": "2028-05-15",
     "calendarWeek": "Week 20",
     "courseAbbrev": "PE2",
-    "courseWeekNumber": 33,
+    "courseWeekNumber": 34,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -28201,7 +28210,7 @@
     "weekDate": "2028-05-29",
     "calendarWeek": "Week 22",
     "courseAbbrev": "PE2",
-    "courseWeekNumber": 34,
+    "courseWeekNumber": 35,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -28216,10 +28225,10 @@
   },
   {
     "intake": "OCT24PT",
-    "weekDate": "2028-06-12",
-    "calendarWeek": "Week 24",
+    "weekDate": "2028-08-14",
+    "calendarWeek": "Week 33",
     "courseAbbrev": "PE2",
-    "courseWeekNumber": 35,
+    "courseWeekNumber": 36,
     "isAssignmentWeek": false,
     "isCourseStart": false
   },
@@ -28237,8 +28246,8 @@
     "weekDate": "2028-08-28",
     "calendarWeek": "Week 35",
     "courseAbbrev": "PE2",
-    "courseWeekNumber": 36,
-    "isAssignmentWeek": false,
+    "courseWeekNumber": 37,
+    "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
@@ -28254,10 +28263,10 @@
     "intake": "OCT24PT",
     "weekDate": "2028-09-11",
     "calendarWeek": "Week 37",
-    "courseAbbrev": "PE2",
-    "courseWeekNumber": 37,
-    "isAssignmentWeek": true,
-    "isCourseStart": false
+    "courseAbbrev": "POR2",
+    "courseWeekNumber": 38,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
   },
   {
     "intake": "OCT24PT",
@@ -28273,23 +28282,14 @@
     "weekDate": "2028-09-25",
     "calendarWeek": "Week 39",
     "courseAbbrev": "POR2",
-    "courseWeekNumber": 38,
-    "isAssignmentWeek": false,
-    "isCourseStart": true
-  },
-  {
-    "intake": "OCT24PT",
-    "weekDate": "2028-10-02",
-    "calendarWeek": "Week 40",
-    "courseAbbrev": "POR2",
     "courseWeekNumber": 39,
     "isAssignmentWeek": true,
     "isCourseStart": false
   },
   {
     "intake": "OCT24PT",
-    "weekDate": "2028-10-09",
-    "calendarWeek": "Week 41",
+    "weekDate": "2028-10-02",
+    "calendarWeek": "Week 40",
     "courseAbbrev": "POR2",
     "courseWeekNumber": 39,
     "isAssignmentWeek": true,
