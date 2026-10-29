@@ -277,5 +277,23 @@
     "studentCount": 0,
     "studyPlan": "S25",
     "lms": "New Moodle"
+  },
+  {
+    "id": "OCT26FT",
+    "type": "FT",
+    "startMonth": "OCT",
+    "startYear": 2026,
+    "studentCount": 3,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
+  },
+  {
+    "id": "OCT26PT",
+    "type": "PT",
+    "startMonth": "OCT",
+    "startYear": 2026,
+    "studentCount": 4,
+    "studyPlan": "S25",
+    "lms": "New Moodle"
   }
 ]

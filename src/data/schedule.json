@@ -30445,5 +30445,2165 @@
     "courseWeekNumber": 39,
     "isAssignmentWeek": true,
     "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2026-10-12",
+    "calendarWeek": "Week 42",
+    "courseAbbrev": "INTRO",
+    "courseWeekNumber": 0,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2026-10-19",
+    "calendarWeek": "Week 43",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 1,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2026-10-26",
+    "calendarWeek": "Week 44",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 2,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2026-11-02",
+    "calendarWeek": "Week 45",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 3,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2026-11-09",
+    "calendarWeek": "Week 46",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 4,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2026-11-16",
+    "calendarWeek": "Week 47",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 5,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2026-11-23",
+    "calendarWeek": "Week 48",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 6,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2026-11-30",
+    "calendarWeek": "Week 49",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 7,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2026-12-07",
+    "calendarWeek": "Week 50",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 8,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2026-12-14",
+    "calendarWeek": "Week 51",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 9,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-01-04",
+    "calendarWeek": "Week 1",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 10,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-01-11",
+    "calendarWeek": "Week 2",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 11,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-01-18",
+    "calendarWeek": "Week 3",
+    "courseAbbrev": "PME",
+    "courseWeekNumber": 12,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-01-25",
+    "calendarWeek": "Week 4",
+    "courseAbbrev": "PME",
+    "courseWeekNumber": 13,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-02-01",
+    "calendarWeek": "Week 5",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 14,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-02-08",
+    "calendarWeek": "Week 6",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 15,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-02-15",
+    "calendarWeek": "Week 7",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 16,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-02-22",
+    "calendarWeek": "Week 8",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 17,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-03-01",
+    "calendarWeek": "Week 9",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 18,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-03-08",
+    "calendarWeek": "Week 10",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 19,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-03-15",
+    "calendarWeek": "Week 11",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 20,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-03-22",
+    "calendarWeek": "Week 12",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 21,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-04-05",
+    "calendarWeek": "Week 14",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 22,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-04-12",
+    "calendarWeek": "Week 15",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 23,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-04-19",
+    "calendarWeek": "Week 16",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 24,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-04-26",
+    "calendarWeek": "Week 17",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 25,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-05-03",
+    "calendarWeek": "Week 18",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 26,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-05-10",
+    "calendarWeek": "Week 19",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 27,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-05-17",
+    "calendarWeek": "Week 20",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 28,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-05-24",
+    "calendarWeek": "Week 21",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 29,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-05-31",
+    "calendarWeek": "Week 22",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 30,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-08-09",
+    "calendarWeek": "Week 32",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 31,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-08-16",
+    "calendarWeek": "Week 33",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 32,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-08-23",
+    "calendarWeek": "Week 34",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 33,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-08-30",
+    "calendarWeek": "Week 35",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 34,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-09-06",
+    "calendarWeek": "Week 36",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 35,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-09-13",
+    "calendarWeek": "Week 37",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 36,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-09-20",
+    "calendarWeek": "Week 38",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 37,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-09-27",
+    "calendarWeek": "Week 39",
+    "courseAbbrev": "POR1",
+    "courseWeekNumber": 38,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-10-04",
+    "calendarWeek": "Week 40",
+    "courseAbbrev": "POR1",
+    "courseWeekNumber": 39,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-10-11",
+    "calendarWeek": "Week 41",
+    "courseAbbrev": "INTRO",
+    "courseWeekNumber": 0,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-10-18",
+    "calendarWeek": "Week 42",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 1,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-10-25",
+    "calendarWeek": "Week 43",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 2,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-11-01",
+    "calendarWeek": "Week 44",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 3,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-11-08",
+    "calendarWeek": "Week 45",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 4,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-11-15",
+    "calendarWeek": "Week 46",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 5,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-11-22",
+    "calendarWeek": "Week 47",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 6,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-11-29",
+    "calendarWeek": "Week 48",
+    "courseAbbrev": "WFL",
+    "courseWeekNumber": 7,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-12-06",
+    "calendarWeek": "Week 49",
+    "courseAbbrev": "WFL",
+    "courseWeekNumber": 8,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2027-12-13",
+    "calendarWeek": "Week 50",
+    "courseAbbrev": "WFL",
+    "courseWeekNumber": 9,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-01-03",
+    "calendarWeek": "Week 1",
+    "courseAbbrev": "CSS",
+    "courseWeekNumber": 10,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-01-10",
+    "calendarWeek": "Week 2",
+    "courseAbbrev": "CSS",
+    "courseWeekNumber": 11,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-01-17",
+    "calendarWeek": "Week 3",
+    "courseAbbrev": "CSS",
+    "courseWeekNumber": 12,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-01-24",
+    "calendarWeek": "Week 4",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 13,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-01-31",
+    "calendarWeek": "Week 5",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 14,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-02-07",
+    "calendarWeek": "Week 6",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 15,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-02-14",
+    "calendarWeek": "Week 7",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 16,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-02-21",
+    "calendarWeek": "Week 8",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 17,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-02-28",
+    "calendarWeek": "Week 9",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 18,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-03-06",
+    "calendarWeek": "Week 10",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 19,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-03-13",
+    "calendarWeek": "Week 11",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 20,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-03-27",
+    "calendarWeek": "Week 13",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 21,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-04-03",
+    "calendarWeek": "Week 14",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 22,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-04-10",
+    "calendarWeek": "Week 15",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 23,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-04-17",
+    "calendarWeek": "Week 16",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 24,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-04-24",
+    "calendarWeek": "Week 17",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 25,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-05-01",
+    "calendarWeek": "Week 18",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 26,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-05-08",
+    "calendarWeek": "Week 19",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 27,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-05-15",
+    "calendarWeek": "Week 20",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 28,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-05-22",
+    "calendarWeek": "Week 21",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 29,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-05-29",
+    "calendarWeek": "Week 22",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 30,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-06-05",
+    "calendarWeek": "Week 23",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 31,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-08-14",
+    "calendarWeek": "Week 33",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 32,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-08-21",
+    "calendarWeek": "Week 34",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 33,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-08-28",
+    "calendarWeek": "Week 35",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 34,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-09-04",
+    "calendarWeek": "Week 36",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 35,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-09-11",
+    "calendarWeek": "Week 37",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 36,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-09-18",
+    "calendarWeek": "Week 38",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 37,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-09-25",
+    "calendarWeek": "Week 39",
+    "courseAbbrev": "POR2",
+    "courseWeekNumber": 38,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26FT",
+    "weekDate": "2028-10-02",
+    "calendarWeek": "Week 40",
+    "courseAbbrev": "POR2",
+    "courseWeekNumber": 39,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2026-10-12",
+    "calendarWeek": "Week 42",
+    "courseAbbrev": "INTRO",
+    "courseWeekNumber": 0,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2026-10-19",
+    "calendarWeek": "Week 43",
+    "courseAbbrev": "INTRO",
+    "courseWeekNumber": 0,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2026-10-26",
+    "calendarWeek": "Week 44",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 1,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2026-11-02",
+    "calendarWeek": "Week 45",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 1,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2026-11-09",
+    "calendarWeek": "Week 46",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 2,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2026-11-16",
+    "calendarWeek": "Week 47",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 2,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2026-11-23",
+    "calendarWeek": "Week 48",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 3,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2026-11-30",
+    "calendarWeek": "Week 49",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 3,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2026-12-07",
+    "calendarWeek": "Week 50",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 4,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2026-12-14",
+    "calendarWeek": "Week 51",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 4,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-01-04",
+    "calendarWeek": "Week 1",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 5,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-01-11",
+    "calendarWeek": "Week 2",
+    "courseAbbrev": "DES",
+    "courseWeekNumber": 5,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-01-18",
+    "calendarWeek": "Week 3",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 6,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-01-25",
+    "calendarWeek": "Week 4",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 6,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-02-01",
+    "calendarWeek": "Week 5",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 7,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-02-08",
+    "calendarWeek": "Week 6",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 7,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-02-15",
+    "calendarWeek": "Week 7",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 8,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-02-22",
+    "calendarWeek": "Week 8",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 8,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-03-01",
+    "calendarWeek": "Week 9",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 9,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-03-08",
+    "calendarWeek": "Week 10",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 9,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-03-15",
+    "calendarWeek": "Week 11",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 10,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-03-22",
+    "calendarWeek": "Week 12",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 10,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-04-05",
+    "calendarWeek": "Week 14",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 11,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-04-12",
+    "calendarWeek": "Week 15",
+    "courseAbbrev": "HTML",
+    "courseWeekNumber": 11,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-04-19",
+    "calendarWeek": "Week 16",
+    "courseAbbrev": "PME",
+    "courseWeekNumber": 12,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-04-26",
+    "calendarWeek": "Week 17",
+    "courseAbbrev": "PME",
+    "courseWeekNumber": 12,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-05-03",
+    "calendarWeek": "Week 18",
+    "courseAbbrev": "PME",
+    "courseWeekNumber": 13,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-05-10",
+    "calendarWeek": "Week 19",
+    "courseAbbrev": "PME",
+    "courseWeekNumber": 13,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-05-17",
+    "calendarWeek": "Week 20",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 14,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-05-24",
+    "calendarWeek": "Week 21",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 14,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-05-31",
+    "calendarWeek": "Week 22",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 15,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-08-09",
+    "calendarWeek": "Week 32",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 15,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-08-16",
+    "calendarWeek": "Week 33",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 16,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-08-23",
+    "calendarWeek": "Week 34",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 16,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-08-30",
+    "calendarWeek": "Week 35",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 17,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-09-06",
+    "calendarWeek": "Week 36",
+    "courseAbbrev": "SP1",
+    "courseWeekNumber": 17,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-09-13",
+    "calendarWeek": "Week 37",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 18,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-09-20",
+    "calendarWeek": "Week 38",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 18,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-09-27",
+    "calendarWeek": "Week 39",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 19,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-10-04",
+    "calendarWeek": "Week 40",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 19,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-10-11",
+    "calendarWeek": "Week 41",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 20,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-10-18",
+    "calendarWeek": "Week 42",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 20,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-10-25",
+    "calendarWeek": "Week 43",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 21,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-11-01",
+    "calendarWeek": "Week 44",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 21,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-11-08",
+    "calendarWeek": "Week 45",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 22,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-11-15",
+    "calendarWeek": "Week 46",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 22,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-11-22",
+    "calendarWeek": "Week 47",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 23,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-11-29",
+    "calendarWeek": "Week 48",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 23,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-12-06",
+    "calendarWeek": "Week 49",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 24,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2027-12-13",
+    "calendarWeek": "Week 50",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 24,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-01-03",
+    "calendarWeek": "Week 1",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 25,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-01-10",
+    "calendarWeek": "Week 2",
+    "courseAbbrev": "JS1",
+    "courseWeekNumber": 25,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-01-17",
+    "calendarWeek": "Week 3",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 26,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-01-24",
+    "calendarWeek": "Week 4",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 26,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-01-31",
+    "calendarWeek": "Week 5",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 27,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-02-07",
+    "calendarWeek": "Week 6",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 27,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-02-14",
+    "calendarWeek": "Week 7",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 28,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-02-21",
+    "calendarWeek": "Week 8",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 28,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-02-28",
+    "calendarWeek": "Week 9",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 29,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-03-06",
+    "calendarWeek": "Week 10",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 29,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-03-13",
+    "calendarWeek": "Week 11",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 30,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-03-27",
+    "calendarWeek": "Week 13",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 30,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-04-03",
+    "calendarWeek": "Week 14",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 31,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-04-10",
+    "calendarWeek": "Week 15",
+    "courseAbbrev": "AGC1",
+    "courseWeekNumber": 31,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-04-17",
+    "calendarWeek": "Week 16",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 32,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-04-24",
+    "calendarWeek": "Week 17",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 32,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-05-01",
+    "calendarWeek": "Week 18",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 33,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-05-08",
+    "calendarWeek": "Week 19",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 33,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-05-15",
+    "calendarWeek": "Week 20",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 34,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-05-22",
+    "calendarWeek": "Week 21",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 34,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-05-29",
+    "calendarWeek": "Week 22",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 35,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-06-05",
+    "calendarWeek": "Week 23",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 35,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-08-14",
+    "calendarWeek": "Week 33",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 36,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-08-21",
+    "calendarWeek": "Week 34",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 36,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-08-28",
+    "calendarWeek": "Week 35",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 37,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-09-04",
+    "calendarWeek": "Week 36",
+    "courseAbbrev": "PE1",
+    "courseWeekNumber": 37,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-09-11",
+    "calendarWeek": "Week 37",
+    "courseAbbrev": "POR1",
+    "courseWeekNumber": 38,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-09-18",
+    "calendarWeek": "Week 38",
+    "courseAbbrev": "POR1",
+    "courseWeekNumber": 38,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-09-25",
+    "calendarWeek": "Week 39",
+    "courseAbbrev": "POR1",
+    "courseWeekNumber": 39,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-10-02",
+    "calendarWeek": "Week 40",
+    "courseAbbrev": "POR1",
+    "courseWeekNumber": 39,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-10-16",
+    "calendarWeek": "Week 42",
+    "courseAbbrev": "INTRO",
+    "courseWeekNumber": 0,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-10-23",
+    "calendarWeek": "Week 43",
+    "courseAbbrev": "INTRO",
+    "courseWeekNumber": 0,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-10-30",
+    "calendarWeek": "Week 44",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 1,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-11-06",
+    "calendarWeek": "Week 45",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 1,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-11-13",
+    "calendarWeek": "Week 46",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 2,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-11-20",
+    "calendarWeek": "Week 47",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 2,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-11-27",
+    "calendarWeek": "Week 48",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 3,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-12-04",
+    "calendarWeek": "Week 49",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 3,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2028-12-11",
+    "calendarWeek": "Week 50",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 4,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-01-01",
+    "calendarWeek": "Week 1",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 4,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-01-08",
+    "calendarWeek": "Week 2",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 5,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-01-15",
+    "calendarWeek": "Week 3",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 5,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-01-22",
+    "calendarWeek": "Week 4",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 6,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-01-29",
+    "calendarWeek": "Week 5",
+    "courseAbbrev": "JS2",
+    "courseWeekNumber": 6,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-02-05",
+    "calendarWeek": "Week 6",
+    "courseAbbrev": "WFL",
+    "courseWeekNumber": 7,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-02-12",
+    "calendarWeek": "Week 7",
+    "courseAbbrev": "WFL",
+    "courseWeekNumber": 7,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-02-19",
+    "calendarWeek": "Week 8",
+    "courseAbbrev": "WFL",
+    "courseWeekNumber": 8,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-02-26",
+    "calendarWeek": "Week 9",
+    "courseAbbrev": "WFL",
+    "courseWeekNumber": 8,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-03-05",
+    "calendarWeek": "Week 10",
+    "courseAbbrev": "WFL",
+    "courseWeekNumber": 9,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-03-12",
+    "calendarWeek": "Week 11",
+    "courseAbbrev": "WFL",
+    "courseWeekNumber": 9,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-03-19",
+    "calendarWeek": "Week 12",
+    "courseAbbrev": "CSS",
+    "courseWeekNumber": 10,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-03-26",
+    "calendarWeek": "Week 13",
+    "courseAbbrev": "CSS",
+    "courseWeekNumber": 10,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-04-02",
+    "calendarWeek": "Week 14",
+    "courseAbbrev": "CSS",
+    "courseWeekNumber": 11,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-04-16",
+    "calendarWeek": "Week 16",
+    "courseAbbrev": "CSS",
+    "courseWeekNumber": 11,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-04-23",
+    "calendarWeek": "Week 17",
+    "courseAbbrev": "CSS",
+    "courseWeekNumber": 12,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-04-30",
+    "calendarWeek": "Week 18",
+    "courseAbbrev": "CSS",
+    "courseWeekNumber": 12,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-05-07",
+    "calendarWeek": "Week 19",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 13,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-05-14",
+    "calendarWeek": "Week 20",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 13,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-05-21",
+    "calendarWeek": "Week 21",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 14,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-05-28",
+    "calendarWeek": "Week 22",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 14,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-06-04",
+    "calendarWeek": "Week 23",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 15,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-08-13",
+    "calendarWeek": "Week 33",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 15,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-08-20",
+    "calendarWeek": "Week 34",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 16,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-08-27",
+    "calendarWeek": "Week 35",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 16,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-09-03",
+    "calendarWeek": "Week 36",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 17,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-09-10",
+    "calendarWeek": "Week 37",
+    "courseAbbrev": "SP2",
+    "courseWeekNumber": 17,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-09-17",
+    "calendarWeek": "Week 38",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 18,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-09-24",
+    "calendarWeek": "Week 39",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 18,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-10-01",
+    "calendarWeek": "Week 40",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 19,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-10-08",
+    "calendarWeek": "Week 41",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 19,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-10-15",
+    "calendarWeek": "Week 42",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 20,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-10-22",
+    "calendarWeek": "Week 43",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 20,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-10-29",
+    "calendarWeek": "Week 44",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 21,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-11-05",
+    "calendarWeek": "Week 45",
+    "courseAbbrev": "DVP",
+    "courseWeekNumber": 21,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-11-12",
+    "calendarWeek": "Week 46",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 22,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-11-19",
+    "calendarWeek": "Week 47",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 22,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-11-26",
+    "calendarWeek": "Week 48",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 23,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-12-03",
+    "calendarWeek": "Week 49",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 23,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-12-10",
+    "calendarWeek": "Week 50",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 24,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2029-12-31",
+    "calendarWeek": "Week 1",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 24,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-01-07",
+    "calendarWeek": "Week 2",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 25,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-01-14",
+    "calendarWeek": "Week 3",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 25,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-01-21",
+    "calendarWeek": "Week 4",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 26,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-01-28",
+    "calendarWeek": "Week 5",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 26,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-02-04",
+    "calendarWeek": "Week 6",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 27,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-02-11",
+    "calendarWeek": "Week 7",
+    "courseAbbrev": "JSF",
+    "courseWeekNumber": 27,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-02-18",
+    "calendarWeek": "Week 8",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 28,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-02-25",
+    "calendarWeek": "Week 9",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 28,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-03-04",
+    "calendarWeek": "Week 10",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 29,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-03-11",
+    "calendarWeek": "Week 11",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 29,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-03-18",
+    "calendarWeek": "Week 12",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 30,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-03-25",
+    "calendarWeek": "Week 13",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 30,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-04-01",
+    "calendarWeek": "Week 14",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 31,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-04-08",
+    "calendarWeek": "Week 15",
+    "courseAbbrev": "AGC2",
+    "courseWeekNumber": 31,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-04-15",
+    "calendarWeek": "Week 16",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 32,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-04-22",
+    "calendarWeek": "Week 17",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 32,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-04-29",
+    "calendarWeek": "Week 18",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 33,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-05-06",
+    "calendarWeek": "Week 19",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 33,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-05-13",
+    "calendarWeek": "Week 20",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 34,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-05-20",
+    "calendarWeek": "Week 21",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 34,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-05-27",
+    "calendarWeek": "Week 22",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 35,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-06-03",
+    "calendarWeek": "Week 23",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 35,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-08-12",
+    "calendarWeek": "Week 33",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 36,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-08-19",
+    "calendarWeek": "Week 34",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 36,
+    "isAssignmentWeek": false,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-08-26",
+    "calendarWeek": "Week 35",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 37,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-09-02",
+    "calendarWeek": "Week 36",
+    "courseAbbrev": "PE2",
+    "courseWeekNumber": 37,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-09-09",
+    "calendarWeek": "Week 37",
+    "courseAbbrev": "POR2",
+    "courseWeekNumber": 38,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-09-16",
+    "calendarWeek": "Week 38",
+    "courseAbbrev": "POR2",
+    "courseWeekNumber": 38,
+    "isAssignmentWeek": false,
+    "isCourseStart": true
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-09-23",
+    "calendarWeek": "Week 39",
+    "courseAbbrev": "POR2",
+    "courseWeekNumber": 39,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
+  },
+  {
+    "intake": "OCT26PT",
+    "weekDate": "2030-09-30",
+    "calendarWeek": "Week 40",
+    "courseAbbrev": "POR2",
+    "courseWeekNumber": 39,
+    "isAssignmentWeek": true,
+    "isCourseStart": false
   }
 ]
